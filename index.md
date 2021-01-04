@@ -1,3 +1,10 @@
+[TestLink](https://github.com/SebastianVonRotz/MasterThesis_Bioinformatics_Notes/blob/gh-pages/test.html)
+[Master Main] (https://github.com/SebastianVonRotz/MasterThesis_Bioinformatics_Notes/blob/gh-pages/master_main.html)
+
+https://github.com/nicolas-van/easy-markdown-to-github-pages
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/SebastianVonRotz/BioinformaticsMasterThesis/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
@@ -36,6 +43,3 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
-[TestLink](https://github.com/SebastianVonRotz/MasterThesis_Bioinformatics_Notes/blob/gh-pages/test.html)
-
-https://github.com/nicolas-van/easy-markdown-to-github-pages
