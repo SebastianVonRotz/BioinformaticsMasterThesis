@@ -1,5 +1,5 @@
 [TestLink](https://github.com/SebastianVonRotz/MasterThesis_Bioinformatics_Notes/blob/gh-pages/test.html)
-[Master Main] (https://github.com/SebastianVonRotz/MasterThesis_Bioinformatics_Notes/blob/gh-pages/master_main.html)
+[Master Main](https://github.com/SebastianVonRotz/MasterThesis_Bioinformatics_Notes/blob/gh-pages/master_main.html)
 
 https://github.com/nicolas-van/easy-markdown-to-github-pages
 
