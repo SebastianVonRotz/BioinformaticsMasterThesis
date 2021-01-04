@@ -6,3 +6,4 @@ relative_links:
   collections: true
 include:
   - test.md
+  - master_main.md 
