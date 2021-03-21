@@ -1,0 +1,80 @@
+{
+  "main": {
+    "id": "7f9df9b27cc581a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f36602977953df1",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "integration_devices_inosuisse.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "62eec62aa5d99389",
+    "type": "split",
+    "children": [
+      {
+        "id": "84232d05b77de9d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9270eb28b181cf78",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a17100d494cf5ac2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 233.99999809265137
+  },
+  "right": {
+    "id": "612a2d8a7de02e58",
+    "type": "split",
+    "children": [
+      {
+        "id": "59b1f22cd6ab5329",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a61d0d0fe6d7287b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 184
+  },
+  "lastOpenFiles": [
+    "integration_devices_inosuisse.md",
+    "master_main.md",
+    "work/tasks_work.md",
+    "tasks_main.md",
+    "work/inosuisse.md"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "main": {
+    "id": "aa79a57348efebd5",
+    "type": "split",
+    "children": [
+      {
+        "id": "f71efbf014e828d2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "master_main.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "6a67430be078340e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "pool/ma_task_14_TrackWritingOfThesis.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "5012b80a2447ba71",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "pool/log_master.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "173992749a57b8dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ba06984c2053e90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d23c4aa7e825528",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "523d3fb007bb9cd6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "teamv",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 205.49999809265137
+  },
+  "right": {
+    "id": "48a3df2627bd5939",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d68a35a94d6d979",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1aa8bef4ab7deff7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "pool/log_master.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 179.5
+  },
+  "lastOpenFiles": [
+    "pool/log_master.md",
+    "pool/ma_task_14_TrackWritingOfThesis.md",
+    "master_main.md",
+    "pool/01_hpc_commands.md",
+    "pool/workpackage_02.md",
+    "cpu_usage_log_2.md",
+    "cpu_usage_log_1.md",
+    "pool/ma_task_12_hpcCommands.md",
+    "pool/tasks_master.md",
+    "pool/ma_task_09_BashCommands.md"
+  ]
+}

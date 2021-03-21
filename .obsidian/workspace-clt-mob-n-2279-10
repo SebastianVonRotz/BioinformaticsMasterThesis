@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "aa79a57348efebd5",
+    "type": "split",
+    "children": [
+      {
+        "id": "04ff7f6c0f8d556a",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "master_main.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "173992749a57b8dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ba06984c2053e90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d23c4aa7e825528",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "523d3fb007bb9cd6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "teamv",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200.5
+  },
+  "right": {
+    "id": "48a3df2627bd5939",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d68a35a94d6d979",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1aa8bef4ab7deff7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "master_main.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 179.5
+  },
+  "lastOpenFiles": [
+    "master_main.md",
+    "pool/ma_task_14_TrackWritingOfThesis.md",
+    "pool/log_master.md",
+    "tasks_main.md",
+    "pool/workflow_01.md",
+    "pool/workpackage_01.md",
+    "pool/workpackage_02.md",
+    "work_main.md",
+    "creativity_main.md",
+    "joel_07.12.2020.md"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "main": {
+    "id": "7f9df9b27cc581a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "958ce30e940a2fff",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "tasks_main.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "62eec62aa5d99389",
+    "type": "split",
+    "children": [
+      {
+        "id": "84232d05b77de9d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9270eb28b181cf78",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a17100d494cf5ac2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "fiv"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 193.99999809265137
+  },
+  "right": {
+    "id": "612a2d8a7de02e58",
+    "type": "split",
+    "children": [
+      {
+        "id": "59b1f22cd6ab5329",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a61d0d0fe6d7287b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "tasks_main.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 184
+  },
+  "lastOpenFiles": [
+    "tasks_main.md",
+    "master_main.md",
+    "privat_main.md",
+    "pool/workflow_01.md",
+    "pool/log_master.md",
+    "pool/ma_task_02_DescribeDataSources.md",
+    "pool/workpackage_01.md",
+    "pool/07_demultiplexing.md",
+    "pool/ma_task_12_hpcCommands.md",
+    "pool/04_basecalling_guppy.md"
+  ]
+}

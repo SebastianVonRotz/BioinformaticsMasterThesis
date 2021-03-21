@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "2a4d519d06489570",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7fb18c53bb88e90",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "tasks_main.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "396fa73c41aa6df9",
+    "type": "split",
+    "children": [
+      {
+        "id": "c440f49cd4915d66",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d13427b6e5048d6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a938b2fbfd79912a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7d960df9e317765a",
+    "type": "split",
+    "children": [
+      {
+        "id": "61e8af3c1ed3f386",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe48f1363d3a9e10",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "lastOpenFiles": [
+    "work_main.md",
+    "pool/workpackage_01.md",
+    "tasks_main.md",
+    "master_main.md",
+    "joel_07.12.2020.md",
+    "pool/log_master.md",
+    "dataset_04_SamplesAndInfo.md",
+    "pool/workflow_01.md",
+    "pool/workpackage_02.md",
+    "pool/ma_task_02_DescribeDataSources.md"
+  ]
+}

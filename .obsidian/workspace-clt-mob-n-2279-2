@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "7f9df9b27cc581a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "32412ebc08f80d19",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "pool/cooking.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "b3cb1493b1db628c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "pool/ma_task_07_DataAndWorkflowHandling.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "62eec62aa5d99389",
+    "type": "split",
+    "children": [
+      {
+        "id": "84232d05b77de9d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9270eb28b181cf78",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a17100d494cf5ac2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "cooki"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 417
+  },
+  "right": {
+    "id": "612a2d8a7de02e58",
+    "type": "split",
+    "children": [
+      {
+        "id": "59b1f22cd6ab5329",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a61d0d0fe6d7287b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "pool/cooking.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 184
+  },
+  "lastOpenFiles": [
+    "pool/cooking.md",
+    "creativity_main.md",
+    "pool/01_hpc_commands.md",
+    "pool/ma_task_07_DataAndWorkflowHandling.md",
+    "master_main.md",
+    "pool/hpc_commands.md",
+    "pool/ma_task_02_DescribeDataSources.md",
+    "pool/03_fast5_inspection.md",
+    "pool/04_basecalling_guppy.md",
+    "pool/nanopore_training.md"
+  ]
+}
