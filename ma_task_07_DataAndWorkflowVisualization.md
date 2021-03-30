@@ -1,7 +1,7 @@
 # General
 * [x] Create a file and directory downloader
-* [ ] Create workflow diagram for Workflow_01
-* [ ] Create workflow diagram for hpc server interaction
+* [x] Create workflow diagram for Workflow_01
+* [x] Create workflow diagram for hpc server interaction
 
 # Workflow Diagram
 ### Scheme for [[workpackage_01]]

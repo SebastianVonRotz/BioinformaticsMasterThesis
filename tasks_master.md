@@ -1,36 +1,34 @@
 ### Master Tasks:
 #### Current
-~~Write Methods~~  
-~~Write Results until Filtering tools~~  
-~~Implement Result Pictures~~  
-Define DB Comparison with Kraken2  
-Process data with Kraken2  
-Implement Workflow for Processing Crispr Data  
-~~Update Github with POND and update README~~  
+* [x] Write and Finish Methods (add uDocker)
+* [ ] Write Results POND
+* [x] Write Results until Polishing
+* [ ] Finish write assessment of tools
+* [ ] Process Data for DB comparison
+* [ ] Create the automated workflow and test it
+* [x] Correct Title sizes in the Result Graphs (Workflow Comparison)
+* [ ] Start Processing of D1 for CRISPR analysis
+* [ ] Adapt Section_5.2 to 5.3 for the Workflow Comparsion Graphs
+* [ ] Check why Crispr run works with a new container but not one from the local repositr
 
 #### General
-* [x] Check Template of Stefans Latex setup
-* [x] Checkout uDocker
-* [x] Check if only flowcell and kits are used (All other users should select flow cell and kit instead)
-* [x] Create a wiki of the obsidian notes on github pages or obsidian publish
-* [x] Define the Goals for the Thesis!
-* [ ] How to check dependencies on the server
-* [ ] Consolidate structure of the obsidian notes
+
 * [ ] Send Excel and Visio files to the Github Repository
 * [ ] Think about how to present dependencies of the tools for the user
-
 
 #### Presentations
 * [ ] Transfer ppt into markdown presentation
 * [ ] Change Master Thesis Output to the Vercell Website!
 
 #### Github Repos
-* [ ] Define User requirements in detail
+
 * [ ] Finish Vercel Setup
 	* [x] Enable strict line breaks
 	* [x] Bring all markdown files into one dir
 	* [x] Bring all pictures into assets
-	* [ ] Change main md file to README.md
+	* [x] Change main md file to README.md
+	* [ ] Adapt the notes for better online visuals
+	* [ ] Adapt buil.js files (Replace MINT stuff)
 * [ ] Write new tasks
 	* [x] Task Init (Create dirs)
 	* [x] Task Task Help (like: https://github.com/janikvonrotz/dotfiles/blob/master/task) (replace docu in github)
@@ -38,35 +36,18 @@ Implement Workflow for Processing Crispr Data
 	* [ ] Task verify (Check all tools / check if path exists / check if dataset and dataname in exits)
 	* [ ] Task run-wf (run a workflow
 	* [x] Task list (list scripts and workflows)
-* [x] Comment the env file (check if command)
-* [x] Adjust scripts with the grep command
-* [x] Explain Datatransfer in the README
 * [ ] Create Tool dependencies
-	* [x] List the version with which the setup has been tested #Current 
+	* [ ] List the version with which the setup has been tested #Current 
 	* [ ] Create a short install guide
 #### Scripts and Workflows
-* [ ] Create a for loop based basecalling for automated subdir detection (no adjustment of amount of arrays)
-* [ ] Create a workflow script
+* [x] Create a for loop based basecalling for automated subdir detection (no adjustment of amount of arrays)
+* [ ] Create a workflow script and test it
 * [ ] Is there a way to navigate arround the not flexible number of arrays for the workflow -> Geert
 
 #### Writing
-* [x] Write Generations of Sequencing 
-* [ ] Add Pictures to the Generatios of Sequencing section
-* [ ] Write Nanopore Technology section #Current
-
+ 
 #### Dataset 16S rRNA
-* [ ] Check out installed centrifuge
-* [x] Do classification with Kraken2 and Greengenes DB
-* [x] Classifiy the filered reads with Kraken2
-* [x] Install Krona Tools for Visualization
-* [x] Create Scripts for processing Kraken2 results
-* [x] Create a krona script and process all D4/5 Datasets
-* [x] Create a scirpt for processing the Kraken2 results
-* [ ] Create a compariosn of the Kraken2 Stats
-* [ ] Solve the taxid problem with the greengenes db #Current 
-* [ ] [[joel_18.01.2021]]
-* [ ] Reprocess Dataset 4/5 with EPI2ME (2020.04.06 -> Should have Genus Names)
-* [ ] Filter the EPI2ME and Kraken2 Results for length and quality, then Compare workflows
+* [ ] Process data with RDP, Greengenes and 
 * [ ] There is also data available run on the Illumina MiSeq
 
 #### Dataset amoA Gene
@@ -74,11 +55,11 @@ Implement Workflow for Processing Crispr Data
 * [ ] Eventually automate it
 
 #### Automated Workflow
-* [ ] Do the assessment of hdf5 file (evntually with Nanoplot)
-* [ ] Give histogram of barcodes (before and after filtering)
+* [x] Do the assessment of hdf5 file (evntually with Nanoplot)
+* [x] Give histogram of barcodes (before and after filtering)
 * [ ] Finish the first automated Workflow Setup #Current
-* [ ]  Write Task Command for Workflow
-* [ ]  Start automated Workflow for Dataset 6
+* [x]  Write Task Command for Workflow
+* [x]  Start automated Workflow for Dataset 6
 
 #### General Workflow and Workpackages
 * [ ] Setup GPU basecalling with Guppy
@@ -94,6 +75,31 @@ Implement Workflow for Processing Crispr Data
 * Crispr 2nd priority
 
 ### Done
+* [x] Define User requirements in detail
+* [x] Check out installed centrifuge
+* [x] Do classification with Kraken2 and Greengenes DB
+* [x] Classifiy the filered reads with Kraken2
+* [x] Install Krona Tools for Visualization
+* [x] Create Scripts for processing Kraken2 results
+* [x] Create a krona script and process all D4/5 Datasets
+* [x] Create a scirpt for processing the Kraken2 results
+* [x] Check Template of Stefans Latex setup
+* [x] Checkout uDocker
+* [x] Check if only flowcell and kits are used (All other users should select flow cell and kit instead)
+* [x] Create a wiki of the obsidian notes on github pages or obsidian publish
+* [x] Define the Goals for the Thesis!
+* [x] How to check dependencies on the server
+* [x] Consolidate structure of the obsidian notes
+* [x] Create a compariosn of the Kraken2 Stats
+* [x] Solve the taxid problem with the greengenes db
+* [x] Reprocess Dataset 4/5 with EPI2ME (2020.04.06 -> Should have Genus Names)
+* [x] Filter the EPI2ME and Kraken2 Results for length and quality, then Compare workflows
+* [x] Write Generations of Sequencing 
+* [x] Add Pictures to the Generatios of Sequencing section
+* [x] Write Nanopore Technology section
+* [x] Comment the env file (check if command)
+* [x] Adjust scripts with the grep command
+* [x] Explain Datatransfer in the README
 * [x] Install Kraken2
 * [x] Start basecalling of Dataset 4
 * [x] Start basecalling of Dataset 5

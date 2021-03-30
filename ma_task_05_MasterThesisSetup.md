@@ -33,7 +33,7 @@
 	* [ ] Python
 * [ ] Description of the Github Repository and which Documentation is There
 	* Explanation of the Programming Envrionment
-### 05 Results
+### 05 Results and Discussion
 * [ ] Introduction
 	* Goals of the Thesis
 * [x] Publication evaluation table
@@ -45,7 +45,7 @@
 	* Overview of processe data (matrix table)
 * [ ] Workflow Comparison (Kraken2 vs EPI2ME)
 * [  ] Assessment of the various databases with Kraken2
-### 06 Outlook_Discussion
+### 06 Outlook
 
 ### Appendix
 * [x] Sample ID Tables
