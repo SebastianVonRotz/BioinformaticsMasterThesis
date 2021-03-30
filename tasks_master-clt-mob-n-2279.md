@@ -1,16 +1,14 @@
 ### Master Tasks:
 #### Current
-* [x] Write and Finish Methods (add uDocker)
-* [x] Finish Assessment Results
-* [ ] Write about Goals of assessment and discuss them
-* [ ] Write Results POND framework
+* [ ] Write and Finish Methods (add uDocker)
+* [ ] Write Results POND
 * [x] Write Results until Polishing
-* [x] Finish write assessment of tools
-* [x] Process Data for DB comparison
-* [x] Create the automated workflow and test it
+* [ ] Finish write assessment of tools
+* [ ] Process Data for DB comparison
+* [ ] Create the automated workflow and test it
 * [x] Correct Title sizes in the Result Graphs (Workflow Comparison)
-* [x] Start Processing of D1 for CRISPR analysis
-* [x] Adapt Section_5.2 to 5.3 for the Workflow Comparsion Graphs
+* [ ] Start Processing of D1 for CRISPR analysis
+* [ ] Adapt Section_5.2 to 5.3 for the Workflow Comparsion Graphs
 * [ ] Check why Crispr run works with a new container but not one from the local repository
 
 #### General

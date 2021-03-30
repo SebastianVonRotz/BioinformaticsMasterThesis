@@ -28,336 +28,19 @@
 * [ ] Checkout Bracken
 * [x] Create classificaton plot for each rank (Percent of reads covered by rank)
 * [ ] Define on how to compare the different Databases and Classifications
+* [ ] Install CRISPR Finder
  
 # Log
-### Transfer Datasets
-Copy data into the new dataset folders
-`
-ssh voro@head.hpc.zhaw.ch
-cd /cfs/earth/scratch/voro/data
-cp -a run_0004/. Dataset_1 
-cp -a run_0007d/. Dataset_2
-cp -a run_0009/. Dataset_3 
-mv run_0009 /raw_data
-mv run_0007 /raw_data
-mv run_0007b /raw_data
-mv run_0007c /raw_data
-mv run_0007d /raw_data
-`
-Test Data is from
-https://denbi-nanopore-training-course.readthedocs.io/en/latest/data.html
-`
-mkdir -p ../results/Dataset_test/basecalled_para_1/
-mkdir -p ../results/Dataset_test/basecalled_para_2/
-task upload-script ma_workflow_02 basecalling-guppy_para_1.sh
-task upload-script ma_workflow_02 basecalling-guppy_para_2.sh
-task run-hpc-script basecalling-guppy_para_1.sh
-task run-hpc-script basecalling-guppy_para_2.sh
-`
-
-Commit:
-Expanded task functions, adapted directory structure and added new scripts
-
-### 1st to 12th basecalling test
-[[basecalling_test_log]]
-
-### Nanofilt Setup
-First create demultiplexed test dataset
-
- 	task upload-script wp_01_demultiplexing_qcat.sh wp_01_env
-	task run-hpc-script wp_01_demultiplexing_qcat.sh wp_01_env
-	
-JobID: 960593
-
-Create the nanoplot and stats
-
- 	task upload-script wp_01_nanoplot.sh wp_01_env
-	task run-hpc-script wp_01_nanoplot.sh wp_01_env
-	
-JobID: 960598
-
-Test the Nanofilt script
-
-
-In order to correctly display the basename of the $fq it has to be put in brackets!
-
-	#for fq in $DATAPATH_FILTER_TRIM_NANOFILT_IN*.fastq
-	#  do
-	#    echo $fq 
-	#    echo $DATAPATH_FILTER_TRIM_NANOFILT_OUT$(basename $fq)
-	#  done
-
-	# DATAPATH_FILTER_TRIM_NANOFILT_IN=../results/Dataset_test/wp_01_demultiplexing_qcat/
-	# DATAPATH_FILTER_TRIM_NANOFILT_OUT=../results/Dataset_test/wp_01_filter_trim_nanofilt/
-
-	#cat ../results/Dataset_test/wp_01_demultiplexing_qcat/barcode04.fastq | NanoFilt --maxlength 5000 > ../results/Dataset_test/wp_01_filter_trim_nanofilt/barcode04.fastq 
-
-	#for fq in *.fastq
-	#  do
-	#    cat $fq | NanoFilt ... > filtered_${fq}
-	#  done
-
-	#for fq in $DATAPATH_FILTER_TRIM_NANOFILT_IN*.fastq
-	#  do
-	#    echo $fq
-	#  done
-	#fq=../results/Dataset_test/wp_01_demultiplexing_qcat/barcode04.fastq
-	#cat $fq | NanoFilt --maxlength 5000 > ../results/Dataset_test/wp_01_filter_trim_nanofilt/barcode04.fastq 
-
-	#for dir in /tmp/*/     # list directories in the form "/tmp/dirname/"
-	#do
-	#    dir=${dir%*/}      # remove the trailing "/"
-	#    echo ${dir##*/}    # print everything after the final "/"
-	#done
-
-Infos from website
-
-	You could pipe them all through NanoFilt and generate one output file only:
-	cat *.fastq | NanoFilt ... > new_output.fastq
-	This is going to be the slowest option, but perhaps the cleanest.
-	Note that you could also pipe directly to an aligner:
-	cat *.fastq | NanoFilt ... | minimap2 -a genome.fa | samtools sort -o new_output.bam
-	You could use a bash loop and process them sequentially:
-
-	for fq in *.fastq
-	  do
-		cat $fq | NanoFilt ... > filtered_${fq}
-	  done
-
-	You could use gnu parallel, with a certain number of simultaneous jobs (8 in my example)
-	ls *.fastq | parallel -j 8 'cat {} | NanoFilt > filtered_{}'
-
-
-Running code
-
- 	task upload-script wp_01_filter_trim_nanofilt.sh wp_01_env
-	task run-hpc-script wp_01_filter_trim_nanofilt.sh wp_01_env
-
-JobID: 960616
-
-### qcat output redirection
-
-Adapt the script by adding "2>&1" at the end of the qcat command, this switches the terminal output from the error to the output file
-
-		task upload-script wp_01_demultiplexing_qcat_1.sh wp_01_env
-		task run-hpc-script wp_01_demultiplexing_qcat_1.sh wp_01_env
-		
-JobID: 960720
-
-Further adapt the bash script with " SBATCH --output=qcat_output" and added line "cp qcat_output $DATAPATH_DEMULTPLEXING_QCAT_OUT", "rm qcat_output"
-
-		task upload-script wp_01_demultiplexing_qcat_1.sh wp_01_env
-		task run-hpc-script wp_01_demultiplexing_qcat_1.sh wp_01_env
-		
-JobID: 960730
-
-### Kraken2 Installation
-
-Installation according to https://github.com/DerrickWood/kraken2/wiki/Manual
-
-used
-
-	git clone https://github.com/DerrickWood/kraken2.git
-
-Into the folder
-
-	/cfs/earth/scratch/voro/local_apps/
-	
-Created folder for installation
-
-	/cfs/earth/scratch/voro/local_apps/kraken2/Kraken_Installation
-
-Installation with
-
-	./install_kraken2.sh Kraken_Installation
-	
-Output:
-
-	Kraken 2 installation complete.
-	
-### Slurm Job Array and Job acceleration
-
-##### try 1
-How many files and how many array
-
-	nfiles = $(ls Dataset_4 | wc -l)
-	narr=10
-
-Divide by the amount of arrays and add remeinder so that fo all the data it is accounted
-
-	ndata=$(expr $(ls Dataset_4 | wc -l) / 10 + $(ls Dataset_4 | wc -l) % 10)
-	
-Create an array for each ndata amount
-
-
-	ls Dataset_4 | xargs -n $ndata | > ndata_list.txt
-	readarray name_arr < ndata_list.txt
-
-access the array 
-
-	echo ${name_arr[0]}
-	
-		
-##### try 2
-
-	arraypath=Dataset_4
-	
-	mkdir $arraypath/array_dir
-	
-	ls $arraypath > $arraypath/array_dir/ndata_list.txt
-	
-	ndata=$(expr $(ls $arraypath | wc -l) / 10 + $(ls $arraypath | wc -l) % 10)
-	
-	split -d -l $ndata ndata_list.txt
-	
-	
-	for file in $(cat x0$SLURM_ARRAY_TASK_ID); do mkdir -p "dir_x0$SLURM_ARRAY_TASK_ID" cp "Dataset_4/$file" x0$SLURM_ARRAY_TASK_ID_dir/; done
-	
-All of the tries are not really robust, rather than splitting the Dataset one should accelerate the guppy basecaller. See Tests above!
-
-
-### Create Array job with renaming and relocating
-
-		task upload-script wp_01_basecalling_guppy_array_1.sh wp_01_env
-		task run-hpc-script wp_01_basecalling_guppy_array_1.sh wp_01_env
-
-Rename did not work yet !!!
-
-	"prename" to "rename"
-
-Rename command on HPC is different than form the package isntalled on wsl
-	
-### Kraken2 Setup for usage
-Run according to:
-https://github.com/DerrickWood/kraken2/blob/master/docs/MANUAL.markdown
-
-Run before building the database (Solution found at https://www.linuxquestions.org/questions/debian-26/perl-warning-setting-locale-failed-locale-not-available-4175641949/)
-
-	export LC\_ALL=C
-	perl -e exit
-	
-At the installtion the command
-
-	cp $KRAKEN2_DIR/kraken2{,-build,-inspect} $HOME/bin
-
-can not be run on the hpc, so the paths to the src and scripts have to be manually exported (Found at https://ask.csdn.net/questions/2661611)
-
-	export PATH=$PATH:/cfs/earth/scratch/voro/local_apps/kraken2/scripts
-	export PATH=$PATH:/cfs/earth/scratch/voro/local_apps/kraken2/src
-
-Not the database can be downloaded and setup for building
-
-	kraken2-build --db GREENGENES --special greengenes
-
-[[kraken2_greengenes_installation_output]]
-
-Acess to functions is not properly working! -> The correct directory is the Kraken_Installation directory!!!!!!!!
-
-Inspect the database (you have to be in: "/cfs/earth/scratch/voro/local_apps/kraken2/Kraken_Installation")
-
-	kraken2-inspect --db ../scripts/GREENGENES/ | head -5
-	
-	
-Test the database with:
-
-	../kraken2 --db ../../scripts/GREENGENES/ ../../../../results/Dataset_5/wf_01_basecalling-guppy_array_D5/df5_array.fastq > df5_classification.txt
- 
-Output:
-
-	perl: warning: Setting locale failed.
-	perl: warning: Please check that your locale settings:
-			LANGUAGE = (unset),
-			LC_ALL = (unset),
-			LANG = "C.UTF-8"
-		are supported and installed on your system.
-	perl: warning: Falling back to the standard locale ("C").
-	Loading database information... done.
-	379638 sequences (381.03 Mbp) processed in 34.772s (655.1 Kseq/m, 657.47 Mbp/m).
-	  256332 sequences classified (67.52%)
-	 
-### Setup a script for Kraken2
-The new script is:
-
-	wp_01_classification_kraken2_1.sh
-
-run the script for testing
-
-		task upload-script wp_01_classification_kraken2_1.sh wp_01_env
-		task run-hpc-script wp_01_classification_kraken2_1.sh wp_01_env
-
-### Install Krona for creating plot of kraken2 output
-Installation according to: https://github.com/marbl/Krona/wiki/Installing
-
-get data
-
-	wget https://github.com/marbl/Krona/releases/download/v2.7.1/KronaTools-2.7.1.tar
-
-untar 
-
-	tar -xvf KronaTools-2.7.1.tar 
-
-go in dir
-
-	cd KronaTools-2.7.1/
-
-create bin
-
-	mkdir bin
-
-install
-
-	./install.pl --prefix bin
-
-Output:
-
-	perl: warning: Setting locale failed.
-	perl: warning: Please check that your locale settings:
-			LANGUAGE = (unset),
-			LC_ALL = (unset),
-			LANG = "C.UTF-8"
-		are supported and installed on your system.
-	perl: warning: Falling back to the standard locale ("C").
-	Creating links...
-
-	Installation complete.
-
-	Run ./updateTaxonomy.sh to use scripts that rely on NCBI taxonomy:
-	   ktClassifyBLAST
-	   ktGetLCA
-	   ktGetTaxInfo
-	   ktImportBLAST
-	   ktImportTaxonomy
-	   ktImportMETAREP-BLAST
-
-	Run ./updateAccessions.sh to use scripts that get taxonomy IDs from accessions:
-	   ktClassifyBLAST
-	   ktGetTaxIDFromAcc
-	   ktImportBLAST
-   
-   Want to run the command "ktImportTaxonomy" according to https://www.gitmemory.com/issue/DerrickWood/kraken2/114/524767339. Therefore have to run update taxonomy
-   
-  	 ./updateTaxonomy.sh
-	 
-Test the command in a test directory
-copy a report
-
-	cp ../../../../results/Dataset_5/wf_01_classification_kraken2_D5/BC04.fastq_REPORT .
-
-extract the column
-
-	cut -f3,5 BC04.fastq_REPORT > krona_BC04.in
-
-create the html file
-
-
-	/cfs/earth/scratch/voro/local_apps/krona/KronaTools-2.7.1/bin/bin/ktImportTaxonomy  krona_BC04.in -o krona_BC04.html -t 2 -m 1
-	
+[[wp_02_log_001_data_transfer_and_nanofilt_setup]]  
+  
+[[wp_02_log_002_qcat_setup_basecalling_acceleration]]
+  
+[[wp_02_log_003_kraken2_installation_and_testing]]
 ___
-# !!!!!!!!!!!
-# v0.1
+### v0.1
 **From here on commands and the setup changes drastically, the new setup is outlined in [[workpackage_03]]**
-# !!!!!!!!!!!
 ___
+
 ### Test the new File structure
 
 Adapted the env file
@@ -647,3 +330,43 @@ Stopped at:
 	  bucket 1: 100%
 	  Sorting block of length 330867562 for bucket 1
 	  (Using difference cover)
+	  
+# Installation of CRISPR Finder
+Installation is according to:
+
+https://bioinformaticsreview.com/20200809/installing-crisprcasfinder-on-ubuntu/
+
+It has to be run with udocker
+
+Installation of udocker
+
+	  curl https://raw.githubusercontent.com/indigo-dc/udocker/v1.1.4/udocker.py > udocker
+	  chmod u+rx ./udocker
+	  ./udocker install
+	  
+Store the image locally
+	
+	udocker mkrepo /cfs/earth/scratch/voro/local_apps/docker_images
+
+	udocker --repo=/cfs/earth/scratch/voro/local_apps/docker_images pull unlhcc/crisprcasfinder
+	
+Check if it listed as an image
+	
+	udocker --repo=/cfs/earth/scratch/voro/local_apps/docker_images images
+	
+Create the container
+
+	udocker --repo=/cfs/earth/scratch/voro/local_apps/docker_images create --name=crispr unlhcc/crisprcasfinder
+
+List the created container
+
+	udocker --repo=/cfs/earth/scratch/voro/local_apps/docker_images ps
+
+Run the container
+
+	udocker --repo=/cfs/earth/scratch/voro/local_apps/docker_images run crispr
+	
+Run it with a command attached 
+
+	udocker --repo=/cfs/earth/scratch/voro/local_apps/docker_images run -v /cfs/earth/scratch/voro:/mnt --workdir=/opt/CRISPRCasFinder/ crispr perl CRISPRCasFinder.pl -h
+

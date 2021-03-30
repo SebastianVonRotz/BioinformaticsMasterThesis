@@ -33,28 +33,28 @@
 * [x] Restructured excel
 * [x] Create same structure in citavi as in excel
 * [x] Added Publications for each tool
-* [ ] Created argumentation for choosing the right tool
+* [x] Created argumentation for choosing the right tool
 
 ## Alignment
 * [x] Restructured excel
 * [x] Create same structure in citavi as in excel
 * [x] Added Publications for each tool
-* [ ] Created argumentation for choosing the right tool
+* [x] Created argumentation for choosing the right tool
 
 ## Polishing
 * [x] Restructured excel
 * [x] Create same structure in citavi as in excel
 * [x] Added Publications for each tool
-* [ ] Created argumentation for choosing the right tool
+* [x] Created argumentation for choosing the right tool
 
 ## Taxonomy
 * [x] Restructured excel
 * [x] Create same structure in citavi as in excel
 * [x] Added Publications for each tool
-* [ ] Created argumentation for choosing the right tool
+* [x] Created argumentation for choosing the right tool
 
 ## Bioinformatics Workflow
 * [x] Restructured excel
 * [x] Create same structure in citavi as in excel
 * [x] Added Publications for each tool
-* [ ] Created argumentation for choosing the right tool
+* [x] Created argumentation for choosing the right tool
