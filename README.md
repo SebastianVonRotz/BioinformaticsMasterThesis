@@ -7,10 +7,10 @@ One major result of this thesis the the POND-Framework. This framework enables a
 The Framework is hosted as a separate repository with a detailed guide and descriptions under:  
 **https://github.com/SebastianVonRotz/POND**
 
-# Overview and Tasks
+## Overview and Tasks
 Current working tasks and ToDos are managed here. Also the most important notes and logging files are listed.  
 #### Thesis Tasks and Markdown Presentation
-[[Tasks_Master_Thesis]]  
+[[tasks_master_thesis]]  
 [[Work_Time_and_Task_Log]]  
 #### Varia
 [[Links_and_Infos_around_Thesis_Topics]] 
@@ -18,7 +18,7 @@ Current working tasks and ToDos are managed here. Also the most important notes 
 [[Tools_for_Master_Thesis]]  
 [[Thesis_Presentation]]  
 
-# Workpackages
+## Workpackages
 Workpackages are the main bulk of logging the ongoing work on the thesis. This includes the logging of steps in order to process the data and every step along the way to the results which are included in the thesis.
 #### Data Processing
 [[workpackage_01 | WP01-Data Processing]] 
@@ -30,12 +30,12 @@ Workpackages are the main bulk of logging the ongoing work on the thesis. This i
 [[workpackage_04 | WP04-Visualizations]]
 
 
-# Result R Markdown Notebook
+## Result R Markdown Notebook
 Here the Markdown Notebooks are shown. This is based on the export of those notebooks as pdf pages.
 #### Workflow Comparison
 [[Workflow_Comparison.pdf | Workflow Comparison Markdown Notebook]]
 
-# Specific Tasks 
+## Specific Tasks 
 Tasks are containing notes on trainings needed to implement the framework and writing processing scripts. Furthermore a lot of logging is presented which helped to manage the workload around the thesis.
 #### Workflow and Data
 [[ma_task_03_OverviewPerformedWorkflows | T03 - Overview of Performed Workflows]]  
@@ -58,7 +58,7 @@ Tasks are containing notes on trainings needed to implement the framework and wr
 [[ma_task_13_RegularExpressions]] #Done
 [[ma_task_09_BashCommands]] #Done
 
-# Meeting Notes
+## Meeting Notes
 Here the the meetings with supervisor and involved researcher are listed.  
   
 [[joel_18.01.2021| Meeting - 07]]  
@@ -69,7 +69,7 @@ Here the the meetings with supervisor and involved researcher are listed.
 [[joel_18.03.2020| Meeting - 02]]  
 [[joel_20.02.2020 | Meeting - 01]]  
 
-# Archived
+## Archived
 Depreciated notes  
   
 [[raw_data_crispr_run]]  
