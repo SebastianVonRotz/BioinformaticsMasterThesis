@@ -8,7 +8,7 @@ const basePathAssets = './'
 const uriSuffix = '.html'
 const anchorPrefix = '#'
 const assetsFolder = 'assets'
-const gitUrl = 'https://github.com/Mint-System/Knowledge/blob/master/'
+const gitUrl = 'https://github.com/SebastianVonRotz/MasterThesis_Public_Notes/blob/master/'
 
 function sanitizeName(file) {
     return file.toLocaleLowerCase()
@@ -102,7 +102,7 @@ fs.readdirSync(__dirname).filter(file => (file.slice(-3) === '.md') && (ignoreFi
         '[📝 Edit on GitHub](' + gitUrl + file.replace(/\s+/g, '%20') + ')',
         '\n\n',
         '<footer>',
-        'Copyright © <a href="https://www.mint-system.ch/">Mint System GmbH</a>',
+        'Copyright © <a href="https://github.com/SebastianVonRotz/POND">POND</a>',
         '</footer>'
     ].join('')
 

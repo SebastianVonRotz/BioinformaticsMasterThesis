@@ -1,7 +1,7 @@
 
 module.exports = {
-    title: 'Knowledge Mint System',
-    description: 'Knowledge Mint System',
+    title: 'Master Thesis Public Notes',
+    description: 'Public Notes of the Master Thesis from Sebastian von Rotz',
     themeConfig: {
         sidebar: 'auto'
     },
