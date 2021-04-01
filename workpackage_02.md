@@ -370,3 +370,6 @@ Run it with a command attached
 
 	udocker --repo=/cfs/earth/scratch/voro/local_apps/docker_images run -v /cfs/earth/scratch/voro:/mnt --workdir=/opt/CRISPRCasFinder/ crispr perl CRISPRCasFinder.pl -h
 
+Fasta transformation for texting:
+
+	sed -n '1~4s/^@/>/p;2~4p' INFILE.fastq > OUTFILE.fasta

@@ -1,6 +1,5 @@
 
 
-![[POND_Logo_Title.jpg]]
 # Master Thesis Notes by Sebastian von Rotz
 Here are all the notes are presented for my master thesis **"Evaluation and development of a bioinformatics workflow for amplicon sequencing with nanopore long read technology"**, which is conducted at the EGSB group at ZHAW. The notes can be navigated in a non hyrarchical manner as the notes are structured with Obsidian md.
 
@@ -13,10 +12,10 @@ The Framework is hosted as a separate repository with a detailed guide and descr
 # Overview and Tasks
 Current working tasks and ToDos are managed here. Also the most important notes and logging files are listed.  
 #### Thesis Tasks and Markdown Presentation
-[[tasks_master | Tasks Master Thesis]]  
-[[log_master | Work Time and Task Log]]  
+[[Tasks Master Thesis]]  
+[[Work Time and Task Log]]  
 #### Varia
-[[ma_topic_links_infos | Links and Infos around Thesis Topics]]  
+[[Links and Infos around Thesis Topics]]  
 [[notes_considerations | General Notes]]  
 [[master_thesis_tool_list | Tools for Master Thesis]]  
 [[acls_presentation | Thesis Presentation]]  
@@ -37,6 +36,7 @@ Workpackages are the main bulk of logging the ongoing work on the thesis. This i
 Here the Markdown Notebooks are shown. This is based on the export of those notebooks as pdf pages.
 #### Workflow Comparison
 [[Workflow_Comparison.pdf | Workflow Comparison Markdown Notebook]]
+
 # Specific Tasks 
 Tasks are containing notes on trainings needed to implement the framework and writing processing scripts. Furthermore a lot of logging is presented which helped to manage the workload around the thesis.
 #### Workflow and Data

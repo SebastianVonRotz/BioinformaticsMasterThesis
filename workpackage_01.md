@@ -120,7 +120,59 @@ run the basic data processing workflow
 
 	task run-wf wf_basic_processing.sh
 
+### Data processing of D2 for CRISPR Anlysis
 
+copy all fast5 file in one dir the data
 
+	mkdir Dataset_2
+	
+I realized that some of the passed and failed fasta files do have the same name, therefore I renamed the ones in the failed folder
+
+	cd /cfs/earth/scratch/voro/data/Dataset_2_old/ZHAW_run_0007d/20191030_0900_MN19154_FAL53437_be571480/fast5_fail
+	
+	for i in *; do mv "$i" 1_"$i"; done
+	
+Now use the same command again and check that the filesize increased (yes, from 15.9 GB to 19.7 GB)
+
+	find Dataset_2_old/ -name "*.fast5" -exec cp {} Dataset_2/ \;
+	
+**!!! Somehow the size of the new directory is smaller than the old one?!?!**
+	
+Setup the env file
+```
+REMOTE_PATH=/cfs/earth/scratch/voro/scripts
+
+DATASET_NAME=Dataset_2
+DATA_PATH_IN=../data/Dataset_2/
+RUN_NAME_IN=crispr_d2_01
+RUN_NAME_OUT=crispr_d2_01
+FLOWCELL=FLO-MIN106
+KIT=SQK-PBK004
+
+FILES_PER_SUBDIR=20
+
+GUPPY_BASECALLER_PATH=../local_apps/ont-guppy-cpu/bin/guppy_basecaller
+GUPPY_DEMULTIPLEXING_PATH=../local_apps/ont-guppy-cpu/bin/guppy_barcoder
+
+QCAT_DEMULTIPLEXING_PATH=../python/bin/qcat
+
+NANOFILT_QSCORE=7
+NANOFILT_MIN_LENGTH=1500
+NANOFILT_MAX_LENGTH=2500
+
+PATH_KRAKEN2=../local_apps/kraken2/Kraken_Installation/kraken2 
+PATH_KRAKEN2_DB_SILVA=../local_apps/kraken2/Kraken_Installation/SILVA/
+PATH_KRAKEN2_DB_RDP=../local_apps/kraken2/Kraken_Installation/RDP/
+PATH_KRAKEN2_DB_GG=../local_apps/kraken2/scripts/GREENGENES/
+
+PATH_KRONATOOLS=../local_apps/krona/KronaTools-2.7.1/bin/bin/ktImportText
+PATH_KRAKEN2KRONA=../local_apps/lskScripts/scripts/kraken2-translate.pl
+
+UDOCKER_PATH=../local_apps/udocker
+```
+	
+run the basic data processing workflow
+
+	task run-wf wf_basic_processing.sh
 
 
