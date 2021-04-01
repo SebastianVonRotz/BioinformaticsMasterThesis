@@ -74,6 +74,56 @@ ___
 [[D4_and_D5_processing_DB_Comparison]]
 
 ### Data processing of D1 for CRISPR Anlysis
+<<<<<<< HEAD
+=======
+
+copy all fast5 file in one dir the data
+
+	mkdir Dataset_1
+
+	find Dataset_1_old/ -name "*.fast5" -exec cp {} Dataset_1/ \;
+	
+**!!! Somehow the size of the new directory is smaller than the old one?!?!**
+	
+Setup the env file
+```
+REMOTE_PATH=/cfs/earth/scratch/voro/scripts
+
+DATASET_NAME=Dataset_1
+DATA_PATH_IN=../data/Dataset_1/
+RUN_NAME_IN=crispr_d1_01
+RUN_NAME_OUT=crispr_d1_01
+FLOWCELL=FLO-MIN106
+KIT=SQK-PBK004
+
+FILES_PER_SUBDIR=20
+
+GUPPY_BASECALLER_PATH=../local_apps/ont-guppy-cpu/bin/guppy_basecaller
+GUPPY_DEMULTIPLEXING_PATH=../local_apps/ont-guppy-cpu/bin/guppy_barcoder
+
+QCAT_DEMULTIPLEXING_PATH=../python/bin/qcat
+
+NANOFILT_QSCORE=7
+NANOFILT_MIN_LENGTH=1500
+NANOFILT_MAX_LENGTH=2500
+
+PATH_KRAKEN2=../local_apps/kraken2/Kraken_Installation/kraken2 
+PATH_KRAKEN2_DB_SILVA=../local_apps/kraken2/Kraken_Installation/SILVA/
+PATH_KRAKEN2_DB_RDP=../local_apps/kraken2/Kraken_Installation/RDP/
+PATH_KRAKEN2_DB_GG=../local_apps/kraken2/scripts/GREENGENES/
+
+PATH_KRONATOOLS=../local_apps/krona/KronaTools-2.7.1/bin/bin/ktImportText
+PATH_KRAKEN2KRONA=../local_apps/lskScripts/scripts/kraken2-translate.pl
+
+UDOCKER_PATH=../local_apps/udocker
+```
+	
+run the basic data processing workflow
+
+	task run-wf wf_basic_processing.sh
+
+
+>>>>>>> b66df9847e1be42cef64679043175bf618460142
 
 copy all fast5 file in one dir the data
 

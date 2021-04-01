@@ -1,5 +1,6 @@
 ### Master Tasks:
 #### Current
+<<<<<<< HEAD:Tasks Master Thesis.md
 * [x] Write Chapter about frameworks
 * [ ] Write final chapter about frameworks
 * [ ] Write about Goals of assessment and discuss them
@@ -8,6 +9,18 @@
 * [ ] Work on CRISPR processing
 * [ ] Write Sleep commands for available nodes
 * [ ] Check why Crispr run works with a new container but not one from the local repository
+=======
+* [x] Write and Finish Methods (add uDocker)
+* [ ] Write Results POND
+* [x] Write Results until Polishing
+* [ ] Finish write assessment of tools
+* [ ] Process Data for DB comparison
+* [ ] Create the automated workflow and test it
+* [x] Correct Title sizes in the Result Graphs (Workflow Comparison)
+* [ ] Start Processing of D1 for CRISPR analysis
+* [ ] Adapt Section_5.2 to 5.3 for the Workflow Comparsion Graphs
+* [ ] Check why Crispr run works with a new container but not one from the local repositr
+>>>>>>> b66df9847e1be42cef64679043175bf618460142:tasks_master.md
 
 #### General
 
@@ -38,7 +51,15 @@
 	* [ ] List the version with which the setup has been tested #Current 
 	* [ ] Create a short install guide
 #### Scripts and Workflows
+<<<<<<< HEAD:Tasks Master Thesis.md
 * [x] Is there a way to navigate arround the not flexible number of arrays for the workflow -> Geert
+=======
+* [x] Create a for loop based basecalling for automated subdir detection (no adjustment of amount of arrays)
+* [ ] Create a workflow script and test it
+* [ ] Is there a way to navigate arround the not flexible number of arrays for the workflow -> Geert
+
+#### Writing
+>>>>>>> b66df9847e1be42cef64679043175bf618460142:tasks_master.md
  
 #### Dataset 16S rRNA
 * [ ] Process data with RDP, Greengenes and 
@@ -49,7 +70,16 @@
 * [ ] Eventually automate it
 
 #### Automated Workflow
+<<<<<<< HEAD:Tasks Master Thesis.md
 * [ ] Further write on the README file -> Mention Workflows and Scripts
+=======
+* [x] Do the assessment of hdf5 file (evntually with Nanoplot)
+* [x] Give histogram of barcodes (before and after filtering)
+* [ ] Finish the first automated Workflow Setup #Current
+* [x]  Write Task Command for Workflow
+* [x]  Start automated Workflow for Dataset 6
+
+>>>>>>> b66df9847e1be42cef64679043175bf618460142:tasks_master.md
 #### General Workflow and Workpackages
 * [ ] Setup GPU basecalling with Guppy
 
@@ -64,6 +94,7 @@
 * Crispr 2nd priority
 
 ### Done
+<<<<<<< HEAD:Tasks Master Thesis.md
 * [x] Do the assessment of hdf5 file (evntually with Nanoplot)
 * [x] Give histogram of barcodes (before and after filtering)
 * [x] Finish the first automated Workflow Setup
@@ -80,6 +111,8 @@
 * [x] Correct Title sizes in the Result Graphs (Workflow Comparison)
 * [x] Start Processing of D1 for CRISPR analysis
 * [x] Adapt Section_5.2 to 5.3 for the Workflow Comparsion Graphs
+=======
+>>>>>>> b66df9847e1be42cef64679043175bf618460142:tasks_master.md
 * [x] Define User requirements in detail
 * [x] Check out installed centrifuge
 * [x] Do classification with Kraken2 and Greengenes DB

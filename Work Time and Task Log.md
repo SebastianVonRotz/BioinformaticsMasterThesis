@@ -62,7 +62,11 @@ Do,04.03.2021,09:00,1,14:00,[[ma_task_14_TrackWritingOfThesis]][[ma_task_04_Bioi
 Di,16.03.2021,10:00,1.5,2,18:00,[[ma_task_14_TrackWritingOfThesis]][[workpackage_02]]
 Di,23.03.2021,14:00,0,17:30,[[ma_task_14_TrackWritingOfThesis]][[workpackage_01]]
 Mi,24.03.2021,15:00,2,20:00,[[workpackage_01]][[workpackage_02]]
+<<<<<<< HEAD:Work Time and Task Log.md
 Do,25.03.2021,14:00,0.5,19:00,[[workpackage_02]]
 Mo,29.03.2021,15:00,3,20:00,[[workpackage_01]][[workpackage_04]]
 Di,30.03.2021,08:30,2,19:50,[[ma_task_14_TrackWritingOfThesis]][[ma_task_04_BioinformaticsToolList]]
 Mi,31.03.2021,09:00,2,16:00,[[workpackage_02]][[ma_task_14_TrackWritingOfThesis]]
+=======
+Do,25.03.2021,14:00,0.5,19:00,[[workpackage_02]]
+>>>>>>> b66df9847e1be42cef64679043175bf618460142:log_master.md
