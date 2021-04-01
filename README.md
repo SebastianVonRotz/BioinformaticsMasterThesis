@@ -11,6 +11,7 @@ The Framework is hosted as a separate repository with a detailed guide and descr
 Current working tasks and ToDos are managed here. Also the most important notes and logging files are listed.  
 #### Thesis Tasks and Markdown Presentation
 [[tasks_master_thesis]]  
+[[tasks_master_thesis]]  
 [[Work_Time_and_Task_Log]]  
 #### Varia
 [[Links_and_Infos_around_Thesis_Topics]] 
@@ -21,28 +22,28 @@ Current working tasks and ToDos are managed here. Also the most important notes 
 ## Workpackages
 Workpackages are the main bulk of logging the ongoing work on the thesis. This includes the logging of steps in order to process the data and every step along the way to the results which are included in the thesis.
 #### Data Processing
-[[workpackage_01 | WP01-Data Processing]] 
+[[workpackage_01]] 
 #### Installation of Tools and Programs
-[[workpackage_02 | WP02-Installations of Tools]] 
+[[workpackage_02]] 
 #### Define Structure of Framework
-[[workpackage_03 | WP03-Structure Definition]] 
+[[workpackage_03]] 
 #### Define Graphs and Visualizations
-[[workpackage_04 | WP04-Visualizations]]
+[[workpackage_04]]
 
 
 ## Result R Markdown Notebook
 Here the Markdown Notebooks are shown. This is based on the export of those notebooks as pdf pages.
 #### Workflow Comparison
-[[Workflow_Comparison.pdf | Workflow Comparison Markdown Notebook]]
+[[Workflow_Comparison.pdf]]
 
 ## Specific Tasks 
 Tasks are containing notes on trainings needed to implement the framework and writing processing scripts. Furthermore a lot of logging is presented which helped to manage the workload around the thesis.
 #### Workflow and Data
-[[ma_task_03_OverviewPerformedWorkflows | T03 - Overview of Performed Workflows]]  
-[[ma_task_07_DataAndWorkflowVisualization | T07 - Workflow Visulaization]]  
-[[ma_task_05_MasterThesisSetup | T05 - Master Thesis Structure]]  
-[[ma_task_02_DescribeDataSources | T02 - Description of Data Sources]]  
-[[ma_task_15_GithubCommands | T15 - GitHub Commands]]  
+[[ma_task_03_OverviewPerformedWorkflows]]  
+[[ma_task_07_DataAndWorkflowVisualization]]  
+[[ma_task_05_MasterThesisSetup]]  
+[[ma_task_02_DescribeDataSources]]  
+[[ma_task_15_GithubCommands]]  
 
 #### Publication Processing and Tools
 [[ma_task_04_BioinformaticsToolList]]
