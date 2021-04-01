@@ -74,8 +74,6 @@ ___
 [[D4_and_D5_processing_DB_Comparison]]
 
 ### Data processing of D1 for CRISPR Anlysis
-<<<<<<< HEAD
-=======
 
 copy all fast5 file in one dir the data
 
@@ -122,8 +120,6 @@ run the basic data processing workflow
 
 	task run-wf wf_basic_processing.sh
 
-
->>>>>>> b66df9847e1be42cef64679043175bf618460142
 
 copy all fast5 file in one dir the data
 
