@@ -1,0 +1,138 @@
+{
+  "main": {
+    "id": "aa79a57348efebd5",
+    "type": "split",
+    "children": [
+      {
+        "id": "12391d5ac7e64a2d",
+        "type": "leaf",
+        "dimension": 43.3031218529708,
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "ma_task_05_MasterThesisSetup.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "747c9e140c0c8172",
+        "type": "split",
+        "dimension": 56.6968781470292,
+        "children": [
+          {
+            "id": "19ed7ed95b7414ae",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4033e795a9f29cec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "workpackage_02.md",
+                "mode": "source"
+              }
+            }
+          },
+          {
+            "id": "c5879d453ecf5d08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ma_task_14_TrackWritingOfThesis.md",
+                "mode": "source"
+              }
+            }
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "173992749a57b8dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ba06984c2053e90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d23c4aa7e825528",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "523d3fb007bb9cd6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "srun",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 334.49999809265137
+  },
+  "right": {
+    "id": "48a3df2627bd5939",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d68a35a94d6d979",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1aa8bef4ab7deff7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ma_task_05_MasterThesisSetup.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 179.5
+  },
+  "lastOpenFiles": [
+    "ma_task_05_MasterThesisSetup.md",
+    "README.md",
+    "README-clt-mob-n-2279.md",
+    "tasks_master-clt-mob-n-2279.md",
+    "tasks_master.md",
+    "trackmodule_2_review.md",
+    "script_definition.md",
+    "log_master.md",
+    "workpackage_02.md",
+    "01_hpc_commands.md"
+  ]
+}
