@@ -4,7 +4,7 @@
 * [x] Create workflow diagram for hpc server interaction
 
 # Workflow Diagram
-### Scheme for [[workpackage_01]]
+### Scheme for [[WP - 01]]
 
 Stored under 
 

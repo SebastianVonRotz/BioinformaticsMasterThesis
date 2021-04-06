@@ -12,3 +12,5 @@ For example, a config file for high accuracy DNA basecalling on an R9.4.1 pore a
 
 ___
 Why are the total basecalled file sum different from the array job or single job?
+
+--> Solved, some of the raw data fast5 reads have the same name in the passed and failed directories, when they get put together in one directory some get deleted

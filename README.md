@@ -9,38 +9,36 @@ The Framework is hosted as a separate repository with a detailed guide and descr
 
 ## Overview and Tasks
 Current working tasks and ToDos are managed here. Also the most important notes and logging files are listed.  
-#### Thesis Tasks and Markdown Presentation
+### Thesis Tasks and Markdown Presentation
 [[Tasks Master Thesis]]  
-[[Work_Time_and_Task_Log]]  
-#### Varia
-[[Links_and_Infos_around_Thesis_Topics]] 
-[[Notes_for_Considerations]]  
-[[Tools_for_Master_Thesis]]  
-[[Thesis_Presentation]]  
+[[Work Time and Task Log]]  
+### Varia
+[[Links and Infos around Thesis Topics]] 
+[[Notes for Considerations]]  
+[[Tools for Master Thesis]]  
+[[Thesis Presentation]]  
 
 ## Workpackages
 Workpackages are the main bulk of logging the ongoing work on the thesis. This includes the logging of steps in order to process the data and every step along the way to the results which are included in the thesis.
-#### Data Processing
-[[workpackage_01]] 
-#### Installation of Tools and Programs
-[[workpackage_02]] 
-#### Define Structure of Framework
-[[workpackage_03]] 
-#### Define Graphs and Visualizations
-[[workpackage_04]]
+### Data Processing
+[[WP - 01]] 
+### Installation of Tools and Programs
+[[WP - 02]] 
+### Define Structure of Framework
+[[WP - 03]] 
+### Define Graphs and Visualizations
+[[WP - 04]]
 
-
-## Result R Markdown Notebook
+# Result R Markdown Notebook
 Here the Markdown Notebooks are shown. This is based on the export of those notebooks as pdf pages.
 #### Workflow Comparison
-[[pdf_jpg_test]]
+[[pdf_jpg_test]]  
+[[pdf_jpg_test2]]
 
-## Specific Tasks 
+# Specific Tasks 
 Tasks are containing notes on trainings needed to implement the framework and writing processing scripts. Furthermore a lot of logging is presented which helped to manage the workload around the thesis.
 #### Workflow and Data
-[[ma_task_03_OverviewPerformedWorkflows]]  
-[[ma_task_07_DataAndWorkflowVisualization]]  
-[[ma_task_05_MasterThesisSetup]]  
+[[Task - 05 - Setup of the Mater Thesis]]  
 [[ma_task_02_DescribeDataSources]]  
 [[ma_task_15_GithubCommands]]  
 
@@ -49,14 +47,14 @@ Tasks are containing notes on trainings needed to implement the framework and wr
 [[ma_task_06_AddNewPublicationCategList]]
 [[ma_task_08_TheoryReadPublications]]
 [[ma_task_14_TrackWritingOfThesis]]
-[[ma_task_01_ReannotatePublicationToolList]] #Done
+[[ma_task_01_ReannotatePublicationToolList]]
 
 ####  Training and Notes
-[[ma_task_12_hpcCommands]] #Done
-[[ma_task_11_NanoporeTraining]] #Done
-[[ma_task_10_BashTraining]] #Done
-[[ma_task_13_RegularExpressions]] #Done
-[[ma_task_09_BashCommands]] #Done
+[[ma_task_12_hpcCommands]]
+[[ma_task_11_NanoporeTraining]]
+[[ma_task_10_BashTraining]]
+[[ma_task_13_RegularExpressions]]
+[[ma_task_09_BashCommands]]
 
 ## Meeting Notes
 Here the the meetings with supervisor and involved researcher are listed.  
@@ -67,14 +65,16 @@ Here the the meetings with supervisor and involved researcher are listed.
 [[joel_fabio_10.08.2020| Meeting - 04]]  
 [[joel_06.04.2020| Meeting - 03]]  
 [[joel_18.03.2020| Meeting - 02]]  
-[[joel_20.02.2020 | Meeting - 01]]  
+[[Meeting - 01]]  
 
 ## Archived
 Depreciated notes  
-  
+
 [[raw_data_crispr_run]]  
 [[trackmodule_2_review]]  
 [[naming_framework]]
+[[ma_task_07_DataAndWorkflowVisualization]]  
+[[ma_task_03_OverviewPerformedWorkflows]]  
 
 # Motto
 **If There is a problem with vairables and path check first if the files are all in unix!!!**

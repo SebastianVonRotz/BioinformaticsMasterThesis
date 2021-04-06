@@ -9,6 +9,6 @@ Factors of tool use:
 * Automation
 
 # Workflows
-[[workpackage_01]]
+[[WP - 01]]
 
-[[workpackage_02]]
+[[WP - 02]]
