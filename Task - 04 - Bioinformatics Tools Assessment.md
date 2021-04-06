@@ -1,6 +1,8 @@
+Checklist is in corespondance to Citavi and Overleaf content.
 # ToDo
 * [ ] The Tool lists are split into each category 
 
+# Tools
 ## Basecalling
 * [x] Restructured excel
 * [x] Create same structure in citavi as in excel

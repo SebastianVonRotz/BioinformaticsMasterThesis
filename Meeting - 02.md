@@ -1,4 +1,4 @@
-#### Telcon 18.03.2020
+#### Joel Telcon 18.03.2020
 ~~Data aquisition
 Maybe create documentation for ont guppy~~
 ~~use module spider + name of application -> look if it is available~~

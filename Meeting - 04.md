@@ -1,4 +1,4 @@
-# Discussion Topics Master
+# Discussion Topics Master joel_fabio_10.08.2020
 
 ## Topics Theoretical Background
 * Expand the **Bioinformatics Tool List**

@@ -1,3 +1,4 @@
+# joel_18.01.2021
 * Overview and current status of the thesis
 * Discussion on the current direction and content of the thesis
 

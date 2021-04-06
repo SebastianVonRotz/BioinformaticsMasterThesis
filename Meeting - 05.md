@@ -1,3 +1,4 @@
+# joel_28.10.2020
 ### Further ToDos
 - Reporting on the fast5 files
 -  create a manifest file which holds the parameter of each step

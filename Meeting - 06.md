@@ -1,3 +1,4 @@
+# joel_07.12.2020
 # Questions
 * Metadata for both runs?
 * Basecalled data?
