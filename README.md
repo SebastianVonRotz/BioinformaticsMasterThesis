@@ -10,8 +10,7 @@ The Framework is hosted as a separate repository with a detailed guide and descr
 ## Overview and Tasks
 Current working tasks and ToDos are managed here. Also the most important notes and logging files are listed.  
 #### Thesis Tasks and Markdown Presentation
-[[tasks_master_thesis]]  
-[[tasks_master_thesis]]  
+[[Tasks Master Thesis]]  
 [[Work_Time_and_Task_Log]]  
 #### Varia
 [[Links_and_Infos_around_Thesis_Topics]] 
@@ -34,7 +33,7 @@ Workpackages are the main bulk of logging the ongoing work on the thesis. This i
 ## Result R Markdown Notebook
 Here the Markdown Notebooks are shown. This is based on the export of those notebooks as pdf pages.
 #### Workflow Comparison
-[[Workflow_Comparison.pdf]]
+[[pdf_jpg_test]]
 
 ## Specific Tasks 
 Tasks are containing notes on trainings needed to implement the framework and writing processing scripts. Furthermore a lot of logging is presented which helped to manage the workload around the thesis.

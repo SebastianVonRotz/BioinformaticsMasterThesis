@@ -8,7 +8,7 @@ Do,22.09.2020,08:40,2,16:00,[[ma_task_08_TheoryReadPublications]][[ma_task_02_De
 Mi,30.09.2020,09:00,2.5,15:00,[[ma_task_08_TheoryReadPublications]][[ma_task_07_DataAndWorkflowVisualization]][[ma_task_09_BashCommands]]
 Do,01.10.2020,09:00,3,18:15,[[ma_task_08_TheoryReadPublications]][[ma_task_04_BioinformaticsToolList]][[ma_task_07_DataAndWorkflowVisualization]]
 Fr,02.10.2020,07:45,4,16:00,[[ma_task_04_BioinformaticsToolList]][[ma_task_08_TheoryReadPublications]][[workpackage_01]][[workpackage_02]]
-Mi,07.10.2020,10:00,1,16:30,[[tasks_master_thesis]][[ma_task_08_TheoryReadPublications]][[workpackage_01]]
+Mi,07.10.2020,10:00,1,16:30,[[Tasks Master Thesis]][[ma_task_08_TheoryReadPublications]][[workpackage_01]]
 Fr,09.10.2020,09:00,2,15:00,[[ma_task_08_TheoryReadPublications]][[ma_task_04_BioinformaticsToolList]]
 Mo,12.10.2020,09:00,1.5,15:00,[[ma_task_08_TheoryReadPublications]][[ma_task_04_BioinformaticsToolList]][[workpackage_01]][[ma_task_02_DescribeDataSources]][[ma_task_10_BashTraining]][[ma_task_13_RegularExpressions]]
 Mi,14.10.2020,08:35,1.5,16:00,[[ma_task_08_TheoryReadPublications]][[ma_task_05_MasterThesisSetup]][[workpackage_01]][[workpackage_02]][[ma_task_04_BioinformaticsToolList]]
@@ -40,7 +40,7 @@ Fr,08.01.2021,14:00,0,15:00,
 [[ma_task_14_TrackWritingOfThesis]]
 Sa,09.01.2021,11:15,2,16:30,
 [[ma_task_14_TrackWritingOfThesis]][[ma_task_06_AddNewPublicationCategList]]
-Mo,11.12.2021,12:00,1,19:00,[[tasks_master_thesis]][[workpackage_02]]
+Mo,11.12.2021,12:00,1,19:00,[[Tasks Master Thesis]][[workpackage_02]]
 Di,12.01.2021,14:30,1,17:00,[[ma_task_14_TrackWritingOfThesis]]
 Do,14.01.2021,09:00,2,11:30,[[ma_task_14_TrackWritingOfThesis]][[ma_task_05_MasterThesisSetup]]
 So,17.01.2021,14:00,2,18:00,[[workpackage_02]]
