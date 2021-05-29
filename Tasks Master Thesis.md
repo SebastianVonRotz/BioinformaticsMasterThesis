@@ -1,89 +1,135 @@
-### Master Tasks:
-#### Current
-* [x] Write Chapter about frameworks
-* [ ] Write final chapter about frameworks
-* [ ] Write about Goals of assessment and discuss them
-* [ ] Write Results POND framework
-* [ ] Write Results about Workflow Comparison
+# Master Tasks:
+## Current
+* [ ] Implement Rarefaction curves
+* [ ] Clean up WP - 03 and 04
+* [ ] Maybe check the highest abundant Genus/Species Comparison as shown in the Excel
+* [ ] Evtl. Put Diversity Indexes into the outlook
+* [ ] Evtl. Put the Rarefaction curves into the outlook
+* [ ] Finish: Theory: Taxonomic Classification with CRISPR Regions
+* [ ] Think about Alpha Beta Gamma diversity Table
+* [ ] Create goal box for CRISPR
+* [ ] Ask Janik for PDF Vercel integration
+* [ ] Propose further workflow steps for the CRISPR data
 * [ ] Work on CRISPR processing
-* [ ] Write Sleep commands for available nodes
 * [ ] Check why Crispr run works with a new container but not one from the local repository
-* [x] Write and Finish Methods (add uDocker)
-* [ ] Write Results POND
-* [x] Write Results until Polishing
-* [ ] Finish write assessment of tools
-* [ ] Process Data for DB comparison
-* [ ] Create the automated workflow and test it
-* [x] Correct Title sizes in the Result Graphs (Workflow Comparison)
-* [ ] Start Processing of D1 for CRISPR analysis
-* [ ] Adapt Section_5.2 to 5.3 for the Workflow Comparsion Graphs
-* [ ] Check why Crispr run works with a new container but not one from the local repositr
+* [ ] Create Data Flow Diagram for soil analysis and mention it in the tasks
+* [ ] Run 0018 Infos
+	* Processed as "Temp1"
+	* BC05 Zymo Mock Community (https://www.zymoresearch.com/collections/zymobiomics-microbial-community-standards/products/zymobiomics-microbial-community-dna-standard)
+	* BC01-04 Erwinia/Panthoe/Xantomonas/Pseudomonas
+	* Illumina vs MinION Outlook
 
-#### General
-
+## General
 * [ ] Send Excel and Visio files to the Github Repository
 * [ ] Think about how to present dependencies of the tools for the user
 
-#### Presentations
+## Presentations
 * [ ] Transfer ppt into markdown presentation
 * [ ] Change Master Thesis Output to the Vercell Website!
 
-#### Github Repos
-
+## Github Repos
 * [ ] Finish Vercel Setup
-	* [x] Enable strict line breaks
-	* [x] Bring all markdown files into one dir
-	* [x] Bring all pictures into assets
-	* [x] Change main md file to README.md
 	* [ ] Adapt the notes for better online visuals
-	* [ ] Adapt buil.js files (Replace MINT stuff)
+	* [ ] Adapt build.js files (Replace MINT stuff)
+
 * [ ] Write new tasks
-	* [x] Task Init (Create dirs)
-	* [x] Task Task Help (like: https://github.com/janikvonrotz/dotfiles/blob/master/task) (replace docu in github)
-	* [x] Task list scripts (same as help but shows available scripts)
 	* [ ] Task verify (Check all tools / check if path exists / check if dataset and dataname in exits)
 	* [ ] Task run-wf (run a workflow
-	* [x] Task list (list scripts and workflows)
-* [ ] Create Tool dependencies
-	* [ ] List the version with which the setup has been tested #Current 
-	* [ ] Create a short install guide
-#### Scripts and Workflows
-* [x] Is there a way to navigate arround the not flexible number of arrays for the workflow -> Geert
-* [x] Create a for loop based basecalling for automated subdir detection (no adjustment of amount of arrays)
-* [ ] Create a workflow script and test it
-* [ ] Is there a way to navigate arround the not flexible number of arrays for the workflow -> Geert
 
-#### Writing
+* [ ] Create Tool dependencies
+	* [ ] List the version with which the setup has been tested
+	* [ ] Create a short install guide
+
+## Scripts and Workflows
+
+## Writing
  
-#### Dataset 16S rRNA
-* [ ] Process data with RDP, Greengenes and 
+## Dataset 16S rRNA
+* [ ] Process data with RDP, Greengenes and SILVA
 * [ ] There is also data available run on the Illumina MiSeq
 
-#### Dataset amoA Gene
+## Dataset amoA Gene
 * [ ] Replicate workflow with centrifuge
 * [ ] Eventually automate it
 
-#### Automated Workflow
-* [ ] Further write on the README file -> Mention Workflows and Scripts
-* [x] Do the assessment of hdf5 file (evntually with Nanoplot)
-* [x] Give histogram of barcodes (before and after filtering)
-* [ ] Finish the first automated Workflow Setup #Current
-* [x]  Write Task Command for Workflow
-* [x]  Start automated Workflow for Dataset 6
-#### General Workflow and Workpackages
+## Automated Workflow
+
+## General Workflow and Workpackages
 * [ ] Setup GPU basecalling with Guppy
 
-#### Tools which should be installed on the cluster
+## Tools which should be installed on the cluster
 * [ ] qcat
 * [ ] Kraken2
 * [ ] guppy 4.4
 
-#### Dataset Priority
+## Dataset Priority
 * 16S RNA 1st priority
 * amoA 2nd priority
 * Crispr 2nd priority
 
-### Done
+# Done
+* [x] Write: Taxonomic Classification with CRISPR Regions
+* [x] Write Results POND framework
+* [x] Write further on workflow comparison
+* [x] Finish workflow comparison
+* [x] Start Writing Database Comparison
+* [x] Finish Database Comparison and add VennDiagram
+* [x] Correct Texts
+* [x] Create Pavian Graphs
+* [x] Add Pavian to methods
+* [x] Clean Methods layout
+* [x] Create Rarefaction curves for D4 and D5
+* [x] Write Rough Structure on the outlook 
+* [x] Read the Publication about the 3 databases for discussion
+* [x] Export the phylogenetic trees for soil microbiome analysis
+* [x] Start Writing on the Soil Microbiome Analysis
+* [x] Reexport: Section_5.4_ Read_Frequency_Classification.jpg -> Label y axis is wrong
+* [x] Separate Soil Analysis notebook and graphs to new directory
+* [x] Think about Rarefaction curves
+* [x] Create Rarefaction curves
+	* Talk about it but show it in the appendix
+* [x] Create VennDiagram
+* [x] Create all of the Goal boxes
+* [x] Task Init (Create dirs)
+* [x] Task Task Help (like: https://github.com/janikvonrotz/dotfiles/blob/master/task) (replace docu in github)
+* [x] Task list scripts (same as help but shows available scripts)
+* [x] Task list (list scripts and workflows)
+* [x] Enable strict line breaks
+* [x] Bring all markdown files into one dir
+* [x] Bring all pictures into assets
+* [x] Change main md file to README.md
+* [x] Is there a way to navigate arround the not flexible number of arrays for the workflow -> Geert
+* [x] Create a for loop based basecalling for automated subdir detection (no adjustment of amount of arrays)
+* [x] reate a workflow script and test it
+* [x] Is there a way to navigate arround the not flexible number of arrays for the workflow -> Geert
+* [x] Further write on the README file -> Mention Workflows and Scripts
+* [x] Do the assessment of hdf5 file (evntually with Nanoplot)
+* [x] Give histogram of barcodes (before and after filtering)
+* [x] Finish the first automated Workflow Setup
+* [x]  Write Task Command for Workflow
+* [x]  Start automated Workflow for Dataset 6
+* [x] Write and Finish Methods (add uDocker)
+* [x] Write Results POND
+* [x] Write Results until Polishing
+* [x] Finish write assessment of tools
+* [x] Process Data for DB comparison
+* [x] Create the automated workflow and test it
+* [x] Correct Title sizes in the Result Graphs (Workflow Comparison)
+* [x] Start Processing of D1 for CRISPR analysis
+* [x] Adapt Section_5.2 to 5.3 for the Workflow Comparsion Graphs
+* [x] Check why Crispr run works with a new container but not one from the local repositr
+* [x] Write Chapter about frameworks
+* [x] Write final chapter about frameworks
+* [x] Start Theory on CRISPR
+* [x] Write about Goals of assessment and discuss them
+* [x] Adapt the R Plots for Workflow Comparison
+* [x] Create the Plots for the Database Comparison
+* [x] Write CRISPR chapter 1
+* [x] Joel -> Propose Meeting
+* [x] Create Plots for Soil Comparison
+* [x] Write Sleep commands for available nodes
+* [x] Write Results about Workflow Comparison
+* [x] Write Classification Assessment for Workflow Comparison
 * [x] Do the assessment of hdf5 file (evntually with Nanoplot)
 * [x] Give histogram of barcodes (before and after filtering)
 * [x] Finish the first automated Workflow Setup
