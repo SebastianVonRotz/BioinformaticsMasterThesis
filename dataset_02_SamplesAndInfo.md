@@ -33,4 +33,4 @@ Further Sample description:
 | CRISPR Region 4 | BCPr-C4r1 | 46 nt | 5’ - ACT TGC CTG TCG CTC TAT CTT CAT AGG ATG GTT TTC GCC GGG TAA C - 3’ |
 
 The following Sequencing has been done in the thesis
-![[Pasted image 4.png]]
+![[Sample_ID_3.png]]

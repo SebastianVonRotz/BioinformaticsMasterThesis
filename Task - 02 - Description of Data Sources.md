@@ -116,7 +116,7 @@ CRR Workflow:
 * Filtering: Nanofilt 
 	* Length: Extraction 1520 - 1824 bp / 2128 - 2432 bp / 2432 - 2736 bp
 	* Quality: Quality score of > 13
-	* ![[Pasted image 20201015100506.png]]
+	* ![[Amplicon_Info_1.png]]
 * Assembly/Mapping: Canu
 	* reads to contig
 * Taxonomic ID: Not given

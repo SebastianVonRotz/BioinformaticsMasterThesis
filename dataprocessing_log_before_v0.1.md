@@ -37,7 +37,7 @@ task upload-script wf_01_MinIONQC_install.sh wf_01_env
 task run-hpc-script wf_01_MinIONQC_install.sh wf_01_env
 curl https://raw.githubusercontent.com/roblanf/minion_qc/master/MinIONQC.R > MinIONQC.R
 Adapted the R-Script with
-![[Pasted image 20201007153304.png]]
+![[MinIONQC_Error.png]]
 Run the script
 	
 	task upload-script wf_01_MinIONQC.sh wf_01_env

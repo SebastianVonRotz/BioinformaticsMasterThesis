@@ -16,7 +16,7 @@ Run 0004 was the first test with 12 barcoded amplicon libraries (SQK-PBK004) on 
 * Mux scan was set to 0.5 hours.
 * Basecalling (accurate) was performed live on EGSB-WS06 and took several days
 Samples sequenced were the following:
-![[Pasted image.png]]
+![[Sample_ID_1.png]]
 
 Number of active channels at the beginning of the run: 1521
 Number of active channels at the end of the run: 1309
@@ -29,7 +29,7 @@ Average read size were as expected: amoA - 550 bp; CRR1/CRR2 - 1500-2500 bp
 * Mux scan was set to 0.25 hour.
 * Basecalling (accurate) was performed live on EGSB-WS06 and took several days.
 Samples sequenced were the following:
-![[Pasted image 1.png]]
+![[Sample_ID_2.png]]
 
 Number of active channels at the beginning of the run: 771
 Number of active channels at the end of the run: 653

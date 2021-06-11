@@ -15,7 +15,7 @@ remove the current remote connection
 
 Add your ssh key to the github repo
 
-![[Pasted image 20210101141855.png]]
+![[SSH_Setup.png]]
 
 Add the github repo
 

@@ -2,8 +2,8 @@
 https://datacarpentry.org/shell-genomics/
 
 # Notes
-![[Pasted image 20201012131054.png]]
-![[Pasted image 20201012131035.png]]
+![[Bash_Tutorial_4.png]]
+![[Bash_Tutorial_3.png]]
 
 List all files with extension
 
@@ -21,7 +21,7 @@ Repeat command with history
 	ctrl + r --> reverse searach trough command history
 	ctrl + l / clear --> clears screen
 
-![[Pasted image 20201012131012.png]]
+![[Bash_Tutorial_2.png]]
 
 examine files
 	
@@ -84,10 +84,10 @@ Basename is a function in UNIX that is helpful for removing a uniform part of a 
 
 	$ basename SRR097977.fastq .fastq
 
-![[Pasted image 20201012130945.png]]
+![[Bash_Tutorial_1.png]]
 
 Use nano to create files
-![[Pasted image 20201012131345.png]]
+![[Bash_Tutorial_5.png]]
 
 We’ll call it bad-reads-script.sh. The sh isn’t required, but using that extension tells us that it’s a shell script.
 
