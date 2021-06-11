@@ -21,6 +21,7 @@ Here the open and  closed tasks are listed. There is categorization depending on
 	* [x] Update and Proofread Texts
 	* [x] Add the R Notebooks
 
+* [ ] Check Picture integration with Vercel
 * [ ] Start writing Abstract
 * [ ] Start writing Introduction
 * [ ] Define were to place the R Notebooks
