@@ -35,25 +35,26 @@
 	* [x] Polishing
 	* [x] Alignment / Mapping
 * [x] Amplicon Sequencing with Nanopore Technology
-* [ ] Amplification and Sequencing of the 16S rRNA Gene
-* [ ] Taxonomic Classification of 16S rRNA Nanopore Sequences
-* [ ] Amplification and Sequencing of the CRISPR Gene
-* [ ] Taxonomic Classification with CRISPR Regions
-* [ ] Bioinformatics Frameworks and Pipelines
-* [ ] Types of Frameworks 
-* [ ] Bioinformatics Framework in HPC environments
-* [ ] Methods and Materials
-* [ ] Available Datasets
-* [ ] Software and Hardware
-* [ ] Results and Discussion
-* [ ] Assessment of Workflows and Bioinformatics Tools
-* [ ] Amplicon Workflow List
-* [ ] Bioinformatics Tool List
-* [ ] POND-Framework
-* [ ] Advantages and Disadvantages of the POND Framework
+	* [x] Amplification and Sequencing of the 16S rRNA Gene
+	* [x] Taxonomic Classification of 16S rRNA Nanopore Sequences
+	* [x] Amplification and Sequencing of the CRISPR Gene
+	* [x] Taxonomic Classification with CRISPR Regions
+* [x] Bioinformatics Frameworks and Pipelines
+	* [x] Types of Frameworks 
+	* [x] Bioinformatics Framework in HPC environments
+* [x] Methods and Materials
+	* [x] Available Datasets
+	* [x] Software and Hardware
+* [x] Results and Discussion
+	* [x] Assessment of Workflows and Bioinformatics Tools
+	* [x] Amplicon Workflow List
+	* [x] Bioinformatics Tool List
+* [x] POND-Framework
+	* [x] POND Repository and Overview
+	* [x] Availalble Tools and Scripts with POND
+	* [x] Advantage and Disadvantages of the POND Framwork
 * [ ] Workflow Comparison
-* [ ] Read Quality and Length Distribution Assessment for Workflow Comparison
-* [ ] Classification Assessment for Workflow Comparison
-* [ ] Database Comparison 
-* [ ] CRISPR Genotyping Workflow
-* [ ] Taxonomic Analysis of the Microbiome in Soil Samples                 
+	* [ ] Read Quality and Length Distribution Assessment for Workflow Comparison
+	* [ ] Classification Assessment for Workflow Comparison
+
+                 

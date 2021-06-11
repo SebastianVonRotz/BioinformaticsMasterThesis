@@ -1,6 +1,7 @@
 # Create ssh git remote 
 
 read local ssh key
+
 	
 	cat ~/.ssh/id_rsa.pub
 

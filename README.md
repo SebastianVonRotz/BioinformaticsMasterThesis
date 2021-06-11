@@ -1,9 +1,9 @@
 # Master Thesis Notes of Sebastian von Rotz
-Here are all the notes are presented for my master thesis **"Evaluation and development of a bioinformatics workflow for amplicon sequencing with nanopore long read technology"**, which is conducted at the EGSB group at ZHAW. The notes can be navigated in a non hyrarchical manner as the notes are structured with Obsidian md.
-![[Pasted image 20210406151841.png]]
+This website contains all of the notes of my master thesis **"Evaluation and development of a bioinformatics workflow for amplicon sequencing with nanopore long read technology"**, which is conducted at the EGSB group at ZHAW. The notes can be navigated in a non hyrarchical manner as the notes are structured with Obsidian md. The picture below shows the structure of the notes:
+![[Pasted image 20210529170224.png]]
 
 ## POND-Framework
-One major result of this thesis the the POND-Framework. This framework enables a simple script based aproach for automated processing of nanopore data on a remote server with a Slurm Workload Manager. It requires a unix shell for setting the alias commands and the installation of the tools needed for each processing steps. The tools are either available as a modules on slurm or are installed with a local user. Every script can be run in a step by step manner, but the user has check that the the dependent scripts are processed before each other. The automation is implemented with the dependency command in the slurm envrionment.  
+One major result of this thesis the the POND-Framework. This framework enables a simple script based aproach for automated processing of nanopore data on a remote server with a Slurm Workload Manager. It requires a unix shell for setting the alias commands and the installation of the tools needed for each processing steps. The tools are either available as a modules on Slurm or are installed with a local user. Every script can be run in a step by step manner, but the user has check that the the dependent scripts are processed before each other. The automation is implemented with the dependency command in the Slurm environment.  
   
 The Framework is hosted as a separate repository with a detailed guide and descriptions under:  
 **https://github.com/SebastianVonRotz/POND**
@@ -14,11 +14,6 @@ Current working tasks and ToDos are managed here. Also the most important notes 
 ### Thesis Tasks and Markdown Presentation
 [[Tasks Master Thesis]]  
 [[Work Time and Task Log]]  
-### Varia
-[[Links and Infos around Thesis Topics]]  
-[[Notes for Considerations]]  
-[[Tools for Master Thesis]]  
-[[Thesis Presentation]]  
 
 ## Workpackages
 Workpackages are the main bulk of logging the ongoing work on the thesis. This includes the logging of steps in order to process the data and every step along the way to the results which are included in the thesis.
@@ -30,7 +25,14 @@ Workpackages are the main bulk of logging the ongoing work on the thesis. This i
 [[WP - 03]] 
 ### Training and Notes on Commands
 [[WP - 04]]
+### R Notebooks
+[[WP - 05]]
 
+### Varia
+[[Links and Infos around Thesis Topics]]  
+[[Notes for Considerations]]  
+[[Tools for Master Thesis]]  
+[[Thesis Presentation]]  
 # Result R Markdown Notebook
 Here the Markdown Notebooks are shown. This is based on the export of those notebooks as pdf pages.
 ## Workflow Comparison
@@ -39,7 +41,6 @@ Here the Markdown Notebooks are shown. This is based on the export of those note
 
 # Meeting Notes
 Here the the meetings with supervisor and involved researcher are listed.  
- 
 [[Meeting - 08]]  
 [[Meeting - 07]]  
 [[Meeting - 06]]  
@@ -50,15 +51,12 @@ Here the the meetings with supervisor and involved researcher are listed.
 [[Meeting - 01]]  
 
 # Archived
-Depreciated notes  
+Depreciated notes  are stored here
+[[archived]]
 
-[[raw_data_crispr_run]]  
-[[trackmodule_2_review]]  
-[[naming_framework]]
-[[ma_task_07_DataAndWorkflowVisualization]]  
-[[ma_task_03_OverviewPerformedWorkflows]]  
+
 
 ### Check first if Problem arises
-**If There is a problem with vairables and path check first if the files are all in unix!!!**
+**If There is a problem with vairables and path check first if the files are all in unix format!!!**
 
 

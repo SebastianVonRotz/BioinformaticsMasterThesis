@@ -1,18 +1,40 @@
 # Master Tasks:
+Here the open and  closed tasks are listed. There is categorization depending on the topic. Closed taks are listed at the end of this file in an unstructured manner.
+
 ## Current
-* [ ] Implement Rarefaction curves
-* [ ] Clean up WP - 03 and 04
+* [x] Proofread Results
+* [x] Send Draft to Nicolas for reviewing
+* [x] Write Phylogeny
+* [x] Write Outlook subsection
+* [x] Write Outlook subsection
+* [x] Proof Read Results
+* [x] Check Methods formatting
+* [x] Evtl. Put the Rarefaction curves into the outlook
+* [x] Finish: Theory: Taxonomic Classification with CRISPR Regions
+* [x] Create Data Flow Diagram for soil analysis and mention it in the tasks
+* [x] Create goal box for CRISPR
+* [x] Work on CRISPR processing
+* [x] One Section Outlook writing
+* [x] Proof Read
+* [x] Finalize the Github Repository
+	* [x] Update Graphs
+	* [x] Update and Proofread Texts
+	* [x] Add the R Notebooks
+
+* [ ] Start writing Abstract
+* [ ] Start writing Introduction
+* [ ] Define were to place the R Notebooks
+* [ ] Finalize Vercel Website
+	* [ ] Clean Text according to Definition
+	* [ ] Implement important links to the Github Repository
+* [ ] Check Moritz Korrekturen
+* [ ] Phylogeny Picture description
 * [ ] Maybe check the highest abundant Genus/Species Comparison as shown in the Excel
 * [ ] Evtl. Put Diversity Indexes into the outlook
-* [ ] Evtl. Put the Rarefaction curves into the outlook
-* [ ] Finish: Theory: Taxonomic Classification with CRISPR Regions
 * [ ] Think about Alpha Beta Gamma diversity Table
-* [ ] Create goal box for CRISPR
 * [ ] Ask Janik for PDF Vercel integration
 * [ ] Propose further workflow steps for the CRISPR data
-* [ ] Work on CRISPR processing
 * [ ] Check why Crispr run works with a new container but not one from the local repository
-* [ ] Create Data Flow Diagram for soil analysis and mention it in the tasks
 * [ ] Run 0018 Infos
 	* Processed as "Temp1"
 	* BC05 Zymo Mock Community (https://www.zymoresearch.com/collections/zymobiomics-microbial-community-standards/products/zymobiomics-microbial-community-dna-standard)
@@ -45,12 +67,12 @@
 ## Writing
  
 ## Dataset 16S rRNA
-* [ ] Process data with RDP, Greengenes and SILVA
+* [x] Process data with RDP, Greengenes and SILVA
 * [ ] There is also data available run on the Illumina MiSeq
 
 ## Dataset amoA Gene
 * [ ] Replicate workflow with centrifuge
-* [ ] Eventually automate it
+* [x] Eventually automate it
 
 ## Automated Workflow
 
@@ -68,6 +90,21 @@
 * Crispr 2nd priority
 
 # Done
+* [x] Finish Coverage Change Section
+* [x] Start Writing Rarefaction curves
+* [x] Finish writing rarefaction curves (Picture description)
+* [x] Write around one page
+* [x] Finish proofreading theory
+* [x] Microbiome Analysis 5.4 to 5.5
+* [x] Add Apendix D with Plots
+* [x] Write Phylogeny
+* [x] Write Outlook
+* [x] Write around one page
+* [x] Add Abbreviation table
+* [x] Send Theory for proof reading + a an overview of available days
+* [x] Start Writing Outlook
+* [x] Implement Rarefaction curves
+* [x] Clean up WP - 03 and 04
 * [x] Write: Taxonomic Classification with CRISPR Regions
 * [x] Write Results POND framework
 * [x] Write further on workflow comparison

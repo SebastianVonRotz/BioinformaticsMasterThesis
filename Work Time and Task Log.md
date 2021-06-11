@@ -1,4 +1,6 @@
-### day,date,start,break,finish,tasks
+# Logging of Thesis Tasks Hours
+In order to track hours allocated to the corresponding task a log file is created. The general structure is as follows: "day,date,start,break,finish,tasks".
+# Log
 Mi,26.08.2020,09:00,0.5,16:00,[[Task - 01 - Reannotation of Papers for Citavi]]  
 Di,15.09.2020,08:00,1,15:00,[[Task - 01 - Reannotation of Papers for Citavi]][[Task - 02 - Description of Data Sources]]  
 Mi,16.09.2020,14:30,0,16:00,[[Task - 01 - Reannotation of Papers for Citavi]]  
@@ -76,12 +78,17 @@ Mi,21.04.2021,09:20,1.5,14:00,[[Task - 14 - Tracking of Thesis Writing Progress]
 Di, 27.04.2021,08:30,1.5,15:00,[[Task - 14 - Tracking of Thesis Writing Progress]][[Task - 16 - Proofreading Progress]]  
 Mi,28.04.2021,09:00,0.5,11:00,[[Meeting - 08]]
 Do,06.05.2021,09:00,1.5,14:00,[[Task - 14 - Tracking of Thesis Writing Progress]]
-Di,11.05.2021,08:30,4,21:00[[Task - 14 - Tracking of Thesis Writing Progress]]
-Do,20.05.2021,09:00,2,15:00[[Task - 16 - Proofreading Progress]][[README]]
-Mo,24.05.2021,15:30,1,17:30[[Task - 16 - Proofreading Progress]][[Task - 14 - Tracking of Thesis Writing Progress]]  
-Di,25.05.2021,09:00,3,16:00[[Task - 16 - Proofreading Progress]][[Task - 14 - Tracking of Thesis Writing Progress]]  
-Do,27.05.2021,09:30,5,21:00[[Task - 16 - Proofreading Progress]][[Task - 14 - Tracking of Thesis Writing Progress]]  
-Sa,28.05.2021,10:15,,[[Task - 14 - Tracking of Thesis Writing Progress]]  
-
-
+Di,11.05.2021,08:30,4,21:00,[[Task - 14 - Tracking of Thesis Writing Progress]]
+Do,20.05.2021,09:00,2,15:00,[[Task - 16 - Proofreading Progress]][[README]]
+Mo,24.05.2021,15:30,1,17:30,[[Task - 16 - Proofreading Progress]][[Task - 14 - Tracking of Thesis Writing Progress]]  
+Di,25.05.2021,09:00,3,16:00,[[Task - 16 - Proofreading Progress]][[Task - 14 - Tracking of Thesis Writing Progress]]  
+Do,27.05.2021,09:30,5,21:00,[[Task - 16 - Proofreading Progress]][[Task - 14 - Tracking of Thesis Writing Progress]]  
+Sa,28.05.2021,10:15,5,18:00,[[Task - 14 - Tracking of Thesis Writing Progress]]  
+Mo,30.05.2021,09:30,4,17:00,[[Task - 14 - Tracking of Thesis Writing Progress]][[Task - 16 - Proofreading Progress]]  
+Di, 01.06.2021,18:00,0,19:00,[[Task - 16 - Proofreading Progress]]  
+Do,03.05.2021,09:00,0,12:00,[[Task - 14 - Tracking of Thesis Writing Progress]]
+Fr, 04.06.2021,11:00,0,13:00,[[Task - 16 - Proofreading Progress]]  
+Mo,07.06.2021,08:00,1,14:00,[[Task - 16 - Proofreading Progress]][[Task - 14 - Tracking of Thesis Writing Progress]]    
+Di,08.06.2021,09:00,2,14:00,[[Task - 16 - Proofreading Progress]][[Task - 14 - Tracking of Thesis Writing Progress]]    
+Do,10.06.2021,08:45,2,15:00,[[Task - 16 - Proofreading Progress]][[Task - 14 - Tracking of Thesis Writing Progress]]    
 
