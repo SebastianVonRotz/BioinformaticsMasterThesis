@@ -1,0 +1,130 @@
+{
+  "main": {
+    "id": "aa79a57348efebd5",
+    "type": "split",
+    "children": [
+      {
+        "id": "43a5622e56da648a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "4909108802822934",
+        "type": "split",
+        "children": [
+          {
+            "id": "ab29818437d24ab2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Task - 16 - Proofreading Progress.md",
+                "mode": "source"
+              }
+            }
+          },
+          {
+            "id": "fefa10872520ea91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Work Time and Task Log.md",
+                "mode": "source"
+              }
+            }
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "173992749a57b8dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ba06984c2053e90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d23c4aa7e825528",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "523d3fb007bb9cd6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 334.49999809265137
+  },
+  "right": {
+    "id": "48a3df2627bd5939",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d68a35a94d6d979",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1aa8bef4ab7deff7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Work Time and Task Log.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 179.5
+  },
+  "active": "fefa10872520ea91",
+  "lastOpenFiles": [
+    "Work Time and Task Log.md",
+    "Tasks Master Thesis.md",
+    "Task - 16 - Proofreading Progress.md",
+    "README.md",
+    "WP - 04.md",
+    "assets/Pasted image 20210406151841.png",
+    "WP - 03.md",
+    "Task - 04 - Bioinformatics Tools Assessment.md",
+    "Task - 14 - Tracking of Thesis Writing Progress.md",
+    "Notes for Considerations.md"
+  ]
+}
