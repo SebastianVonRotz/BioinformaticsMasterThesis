@@ -2,32 +2,13 @@
 Here the open and  closed tasks are listed. There is categorization depending on the topic. Closed taks are listed at the end of this file in an unstructured manner.
 
 ## Current
-* [x] Proofread Results
-* [x] Send Draft to Nicolas for reviewing
-* [x] Write Phylogeny
-* [x] Write Outlook subsection
-* [x] Write Outlook subsection
-* [x] Proof Read Results
-* [x] Check Methods formatting
-* [x] Evtl. Put the Rarefaction curves into the outlook
-* [x] Finish: Theory: Taxonomic Classification with CRISPR Regions
-* [x] Create Data Flow Diagram for soil analysis and mention it in the tasks
-* [x] Create goal box for CRISPR
-* [x] Work on CRISPR processing
-* [x] One Section Outlook writing
-* [x] Proof Read
-* [x] Finalize the Github Repository
-	* [x] Update Graphs
-	* [x] Update and Proofread Texts
-	* [x] Add the R Notebooks
-
-* [ ] Check Picture integration with Vercel
+* [x] Check Picture integration with Vercel
 * [ ] Start writing Abstract
 * [ ] Start writing Introduction
 * [ ] Define were to place the R Notebooks
-* [ ] Finalize Vercel Website
-	* [ ] Clean Text according to Definition
-	* [ ] Implement important links to the Github Repository
+* [x] Finalize Vercel Website
+	* [x] Clean Text according to Definition
+	* [x] Implement important links to the Github Repository
 * [ ] Check Moritz Korrekturen
 * [ ] Phylogeny Picture description
 * [ ] Maybe check the highest abundant Genus/Species Comparison as shown in the Excel
@@ -91,6 +72,24 @@ Here the open and  closed tasks are listed. There is categorization depending on
 * Crispr 2nd priority
 
 # Done
+* [x] Proofread Results
+* [x] Send Draft to Nicolas for reviewing
+* [x] Write Phylogeny
+* [x] Write Outlook subsection
+* [x] Write Outlook subsection
+* [x] Proof Read Results
+* [x] Check Methods formatting
+* [x] Evtl. Put the Rarefaction curves into the outlook
+* [x] Finish: Theory: Taxonomic Classification with CRISPR Regions
+* [x] Create Data Flow Diagram for soil analysis and mention it in the tasks
+* [x] Create goal box for CRISPR
+* [x] Work on CRISPR processing
+* [x] One Section Outlook writing
+* [x] Proof Read
+* [x] Finalize the Github Repository
+* [x] Update Graphs
+* [x] Update and Proofread Texts
+* [x] Add the R Notebooks
 * [x] Finish Coverage Change Section
 * [x] Start Writing Rarefaction curves
 * [x] Finish writing rarefaction curves (Picture description)
