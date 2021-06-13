@@ -1,11 +1,7 @@
 # Master Thesis Notes of Sebastian von Rotz
 This website contains all of the notes of my master thesis **"Evaluation and development of a bioinformatics workflow for amplicon sequencing with nanopore long read technology"**, which is conducted at the EGSB group at ZHAW. The notes can be navigated in a non hyrarchical manner as the notes are structured with Obsidian md. The picture below shows the structure of the notes:
 
-![[Graph_of_Notes.png]]
-
-![[Section_52_POND_Scripts_Detailed.jpg]]
-
-![[Merged_PDF_to_JPG.jpg]]
+![[Graph_of_Notes_2.png]]
 
 
 ## POND-Framework
