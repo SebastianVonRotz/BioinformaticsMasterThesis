@@ -149,17 +149,17 @@ if (!firstArg || ['all', 'convert'].indexOf(firstArg) > 0) {
         ].join('')
 
         // add banklinks
-        if (backLinks.length > 0) {
-            content = content + [
-                'Backlinks:\n',
-                '\n',
-                backLinks.map((link) => {
-                    let target = link.source != 'README' ? `${basePath}${sanitizeName(link.source)}${uriSuffix}` : '/'
-                    return `* [${link.source}](${target}) \n`
-                }).join(''),
-                '\n',
-            ].join('')
-        }
+        // if (backLinks.length > 0) {
+        //     content = content + [
+        //         'Backlinks:\n',
+        //         '\n',
+        //         backLinks.map((link) => {
+        //             let target = link.source != 'README' ? `${basePath}${sanitizeName(link.source)}${uriSuffix}` : '/'
+        //             return `* [${link.source}](${target}) \n`
+        //         }).join(''),
+        //         '\n',
+        //     ].join('')
+        // }
 
         // add footer
         content = content + [

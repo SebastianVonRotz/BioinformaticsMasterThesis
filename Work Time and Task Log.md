@@ -90,5 +90,6 @@ Do,03.05.2021,09:00,0,12:00,[[Task - 14 - Tracking of Thesis Writing Progress]]
 Fr, 04.06.2021,11:00,0,13:00,[[Task - 16 - Proofreading Progress]]  
 Mo,07.06.2021,08:00,1,14:00,[[Task - 16 - Proofreading Progress]][[Task - 14 - Tracking of Thesis Writing Progress]]    
 Di,08.06.2021,09:00,2,14:00,[[Task - 16 - Proofreading Progress]][[Task - 14 - Tracking of Thesis Writing Progress]]    
-Do,10.06.2021,08:45,2,15:00,[[Task - 16 - Proofreading Progress]][[Task - 14 - Tracking of Thesis Writing Progress]]    
+Do,10.06.2021,08:45,2,15:00,[[Task - 16 - Proofreading Progress]][[Task - 14 - Tracking of Thesis Writing Progress]]  
+Mo,14.06.2021,08:45,,[[Task - 14 - Tracking of Thesis Writing Progress]]  
 

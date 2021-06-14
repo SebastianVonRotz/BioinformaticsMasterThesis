@@ -3,13 +3,15 @@ Here the open and  closed tasks are listed. There is categorization depending on
 
 ## Current
 * [x] Check Picture integration with Vercel
-* [ ] Start writing Abstract
-* [ ] Start writing Introduction
+* [ ] Write Keywords for the abstract
+* [ ] Write Keywords for the Introduction
+* [ ] Write 2 Parapgraphs in the outlook
 * [ ] Define were to place the R Notebooks
+* [ ] Remove Backlinks in the Vercel build
 * [x] Finalize Vercel Website
 	* [x] Clean Text according to Definition
 	* [x] Implement important links to the Github Repository
-* [ ] Check Moritz Korrekturen
+* [ ] Start going trough Moritz Korrekturen
 * [ ] Phylogeny Picture description
 * [ ] Maybe check the highest abundant Genus/Species Comparison as shown in the Excel
 * [ ] Evtl. Put Diversity Indexes into the outlook
