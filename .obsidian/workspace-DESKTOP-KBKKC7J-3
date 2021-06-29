@@ -1,0 +1,159 @@
+{
+  "main": {
+    "id": "aa79a57348efebd5",
+    "type": "split",
+    "children": [
+      {
+        "id": "72e9748b13f95e53",
+        "type": "split",
+        "children": [
+          {
+            "id": "1116d2b7a127f613",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tasks Master Thesis.md",
+                "mode": "source"
+              }
+            }
+          },
+          {
+            "id": "bd7eaf7d703975c2",
+            "type": "split",
+            "children": [
+              {
+                "id": "6bc71b272332d9e7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Task - 16 - Proofreading Progress.md",
+                    "mode": "source"
+                  }
+                }
+              },
+              {
+                "id": "a57f9b265fb822a6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Work Time and Task Log.md",
+                    "mode": "source"
+                  }
+                }
+              },
+              {
+                "id": "5f48a943989d3fdd",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "source"
+                  }
+                }
+              },
+              {
+                "id": "cc19850a63722b51",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Task - 14 - Tracking of Thesis Writing Progress.md",
+                    "mode": "source"
+                  }
+                }
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "173992749a57b8dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ba06984c2053e90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d23c4aa7e825528",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "523d3fb007bb9cd6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "section_5.4",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 352.5
+  },
+  "right": {
+    "id": "48a3df2627bd5939",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d68a35a94d6d979",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1aa8bef4ab7deff7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tasks Master Thesis.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 179.5
+  },
+  "active": "1116d2b7a127f613",
+  "lastOpenFiles": [
+    "Tasks Master Thesis.md",
+    "Work Time and Task Log.md",
+    "Task - 16 - Proofreading Progress.md",
+    "README.md",
+    "Task - 14 - Tracking of Thesis Writing Progress.md",
+    "Meeting - 01.md",
+    "Meeting - 02.md",
+    "Meeting - 04.md",
+    "Untitled.md",
+    "Workflow_Comparison_R_Notebook.md"
+  ]
+}

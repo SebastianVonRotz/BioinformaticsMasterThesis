@@ -1,7 +1,7 @@
 # Master Thesis Notes of Sebastian von Rotz
-This website contains all of the notes of my master thesis **"Evaluation and development of a bioinformatics workflow for amplicon sequencing with nanopore long read technology"**, which is conducted at the EGSB group at ZHAW. The notes can be navigated in a non hyrarchical manner as the notes are structured with Obsidian md. The picture below shows the structure of the notes:
+This website contains all of the notes of my master thesis **"Evaluation and development of a bioinformatics workflow for amplicon sequencing with nanopore long read technology"**, which is conducted at the EGSB group at ZHAW. The notes can be navigated in a non hyrarchical manner as the notes are structured with Obsidian md. The picture below shows the structure of the notes, were as the black nodes indicate work packages, green nodes indicate tasks and blue nodes every other file
 
-![[Graph_of_Notes_2.png]]
+![[Graph_of_Notes_3.png]]
 
 
 ## POND-Framework
@@ -13,8 +13,10 @@ The Framework is hosted as a separate repository with a detailed guide and descr
 ## Overview and Tasks
 Current working tasks and ToDos are managed here. Also the most important notes and logging files are listed.  
 
-### Thesis Tasks and Markdown Presentation
+### Thesis Tasks 
 [[Tasks Master Thesis]]  
+
+### Thesis and Work Time Log File
 [[Work Time and Task Log]]  
 
 ## Workpackages
@@ -27,17 +29,6 @@ Workpackages are the main bulk of logging the ongoing work on the thesis. This i
 [[WP - 03]] 
 ### Training and Notes on Commands
 [[WP - 04]]
-### R Notebooks
-[[WP - 05]]
-
-### Varia
-[[Links and Infos around Thesis Topics]]  
-[[Notes for Considerations]]  
-[[Tools for Master Thesis]]  
-[[Thesis Presentation]]  
-# Result R Markdown Notebook
-Here the Markdown Notebooks are shown. This is based on the export of those notebooks as pdf pages.
-
 
 # Meeting Notes
 Here the the meetings with supervisor and involved researcher are listed.  
@@ -53,8 +44,6 @@ Here the the meetings with supervisor and involved researcher are listed.
 # Archived
 Depreciated notes  are stored here
 [[archived]]
-
-
 
 ### Check first if Problem arises
 **If There is a problem with vairables and path check first if the files are all in unix format!!!**

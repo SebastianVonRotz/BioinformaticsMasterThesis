@@ -1,29 +1,50 @@
 # Master Tasks:
-Here the open and  closed tasks are listed. There is categorization depending on the topic. Closed taks are listed at the end of this file in an unstructured manner.
+Here the open and  closed tasks are listed. There is categorization depending on the topic. Closed tasks are listed at the end of this file in an unstructured manner.
 
 ## Current
-* [x] Check Picture integration with Vercel
-* [ ] Write Keywords for the abstract
-* [ ] Write Keywords for the Introduction
-* [ ] Write 2 Parapgraphs in the outlook
-* [ ] Define were to place the R Notebooks
-* [ ] Remove Backlinks in the Vercel build
-* [x] Finalize Vercel Website
-	* [x] Clean Text according to Definition
-	* [x] Implement important links to the Github Repository
-* [ ] Start going trough Moritz Korrekturen
-* [ ] Phylogeny Picture description
+* [x] Link: /notes-ma.vercel.app/
+* [x] Write Outlook paragraph.
+* [x] Italics for "de novo" when possible
+* [x] Write Outlook paragraph
+* [x] Write Introduciton sentences
+* [x] CRIPSR classificatio to CRISPR genotyping
+* [x] Define were to place the R Notebooks
+* [x] Write Abstract !
+* [x] Check Abstract and Introduction
+
+* [ ] Check Delivery requirements
+	* [ ] Check with Joel about a printed copies
+	* [ ] Check with Joel about Digital Colleciotn
+	* [ ] Deliver to master.lsfm@zhaw.ch by Friday, 09/07/2021 at 12:00 noon at the latest. 
+		* [ ] PDF file of the Thesis
+		* [x] Files for building of the vercel website?
+* [ ] Send data to Joel directly?
+	* [ ] All of the files from the thesis containing the raw data, publishing notes and framework files. (e.g. a zip of the one drive folder)
+	* [ ] Transfer the folder of the HPC to the local EGSB folder?
+* [ ] Cancel Overleaf subscription!
+
+
+* [ ] Finalize Data and directories for delivery
+	* [ ] Add Citavi Export
+* [ ] Discuss CRISPR Genotyping Theory into the appendix? And only mention it in the discussion
+* [ ] Add Theo to Thesis Title Page?
+
+
+* [ ] Add content about the Flongle flowcell?
+* [ ] Check sizes of each Table and Figure
+* [x] Check resolutions of Tables and Figures
+* [ ] Implement Links according to Nicolas
+* [x] Phylogeny Picture description
 * [ ] Maybe check the highest abundant Genus/Species Comparison as shown in the Excel
-* [ ] Evtl. Put Diversity Indexes into the outlook
-* [ ] Think about Alpha Beta Gamma diversity Table
-* [ ] Ask Janik for PDF Vercel integration
-* [ ] Propose further workflow steps for the CRISPR data
+* [ ] Write about additional DB like OTT and NCBI
+* [ ] Expand outlook on comparison with Illumina data
+* [ ] Mention pure culture for reference in the run 0018 (BC01-04 Erwinia/Panthoe/Xantomonas/Pseudomonas)
+* [x] Evtl. Put Diversity Indexes into the outlook
+* [x] Think about Alpha Beta Gamma diversity Table
+* [x] Ask Janik for PDF Vercel integration
+* [x] Propose further workflow steps for the CRISPR data
 * [ ] Check why Crispr run works with a new container but not one from the local repository
-* [ ] Run 0018 Infos
-	* Processed as "Temp1"
-	* BC05 Zymo Mock Community (https://www.zymoresearch.com/collections/zymobiomics-microbial-community-standards/products/zymobiomics-microbial-community-dna-standard)
-	* BC01-04 Erwinia/Panthoe/Xantomonas/Pseudomonas
-	* Illumina vs MinION Outlook
+* [x] Run 0018 Infos
 
 ## General
 * [ ] Send Excel and Visio files to the Github Repository
@@ -74,6 +95,18 @@ Here the open and  closed tasks are listed. There is categorization depending on
 * Crispr 2nd priority
 
 # Done
+* [x] Check Picture integration with Vercel
+* [x] Send Draft to Joel
+* [x] Ask Joel on how to cite whole paragraphs
+* [x] Redo punctuation and citatio order
+* [x] Write Keywords for the abstract
+* [x] Write Keywords for the Introduction
+* [x] Write Parapgraphs in the outlook
+* [x] Remove Backlinks in the Vercel build
+* [x] Finalize Vercel Website
+* [x] Clean Text according to Definition
+* [x] Implement important links to the Github Repository
+* [x] Start going trough Moritz Korrekturen
 * [x] Proofread Results
 * [x] Send Draft to Nicolas for reviewing
 * [x] Write Phylogeny

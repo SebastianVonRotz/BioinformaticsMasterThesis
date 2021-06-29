@@ -3,3 +3,7 @@
 [[naming_framework]]
 [[ma_task_07_DataAndWorkflowVisualization]]  
 [[ma_task_03_OverviewPerformedWorkflows]]  
+[[Tools for Master Thesis]]  
+[[Thesis Presentation]]  
+[[Links and Infos around Thesis Topics]]  
+[[Notes for Considerations]]  
