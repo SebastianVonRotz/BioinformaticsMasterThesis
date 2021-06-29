@@ -1,5 +1,8 @@
 # Master Thesis Notes of Sebastian von Rotz
-This website contains all of the notes of my master thesis **"Evaluation and development of a bioinformatics workflow for amplicon sequencing with nanopore long read technology"**, which is conducted at the EGSB group at ZHAW. The notes can be navigated in a non hyrarchical manner as the notes are structured with Obsidian md. The picture below shows the structure of the notes, were as the black nodes indicate work packages, green nodes indicate tasks and blue nodes every other file
+
+## Evaluation and development of a bioinformatics workflow for amplicon sequencing with nanopore long read technology
+
+This website contains all of the notes of my master thesis, which is conducted at the EGSB group at ZHAW. The notes can be navigated in a non hyrarchical manner as the notes are structured with Obsidian md. The picture below shows the structure of the notes, were as the black nodes indicate work packages, green nodes indicate tasks and blue nodes every other file
 
 ![[Graph_of_Notes_3.png]]
 
@@ -42,7 +45,7 @@ Here the the meetings with supervisor and involved researcher are listed.
 [[Meeting - 01]]  
 
 # Archived
-Depreciated notes  are stored here
+Depreciated notes  are stored here:  
 [[archived]]
 
 ### Check first if Problem arises
