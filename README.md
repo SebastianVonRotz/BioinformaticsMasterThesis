@@ -6,7 +6,6 @@ This website contains all of the notes of my master thesis, which is conducted a
 
 ![[Graph_of_Notes_3.png]]
 
-
 ## POND-Framework
 One major result of this thesis the the POND-Framework. This framework enables a simple script based aproach for automated processing of nanopore data on a remote server with a Slurm Workload Manager. It requires a unix shell for setting the alias commands and the installation of the tools needed for each processing steps. The tools are either available as a modules on Slurm or are installed with a local user. Every script can be run in a step by step manner, but the user has check that the the dependent scripts are processed before each other. The automation is implemented with the dependency command in the Slurm environment.  
   
@@ -47,6 +46,3 @@ Here the the meetings with supervisor and involved researcher are listed.
 # Archived
 Depreciated notes  are stored here:  
 [[archived]]
-
-### Check first if Problem arises
-**If There is a problem with vairables and path check first if the files are all in unix format!!!**

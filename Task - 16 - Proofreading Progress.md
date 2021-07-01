@@ -1,5 +1,5 @@
 # Tasks
-* [ ] Proof read every section
+* [x] Proof read every section
 
 # Rules and notes
 * Write Fig to Figure
